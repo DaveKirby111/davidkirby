@@ -5,10 +5,12 @@
 4. FOOTER
 -------------------*/
 
-header, nav, main, footer {
+header, nav, main, footer, .email, .banner {
     border: 2px solid black;
 }
+
 /* 1:HEADER */
+
 /* 2:NAV */
 /* 3:CONTENT */
 /* 4:FOOTER */
