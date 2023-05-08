@@ -5,12 +5,30 @@
 4. FOOTER
 -------------------*/
 
-header, nav, main, footer, .email, .banner {
+header, nav, main, footer, .email, .banner, .education, .skills, .experience
+, .my-info {
     border: 2px solid black;
 }
 
 /* 1:HEADER */
-
 /* 2:NAV */
 /* 3:CONTENT */
+
+main {
+    overflow: hidden;
+}
+
+.education, .experience, .skills {
+    padding: 20px;
+}
+
+.resume-body div {
+    margin-bottom: 20px;
+}
+
+.resume-body h3 {
+    text-transform: capitalize;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
 /* 4:FOOTER */

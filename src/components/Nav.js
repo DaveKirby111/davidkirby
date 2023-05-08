@@ -11,22 +11,20 @@ const links = [
 
   {
     id: 2,
+    url: "/about",
     page: "about",
   },
 
   {
     id: 3,
+    url: "/resume",
     page: "resume",
   },
 
   {
     id: 4,
+    url: "/gallery",
     page: "gallery",
-  },
-
-  {
-    id: 5,
-    page: "contact",
   },
 ];
 

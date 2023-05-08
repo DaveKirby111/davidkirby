@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     <div className="container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
       <header>
         <div className="banner d-flex w-100">
-          <h1>Kirby's World</h1>
+          <h1 className="ms-2">Kirby's World</h1>
           <Nav></Nav>
         </div>
       </header>
@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
       <main className="flex-grow-1">{children}</main>
 
       <footer>
-        <div className="email w-25">
+        <div className="email w-25 text-center">
           <h5 className="text-capitalize">email:</h5>
           <p>david@kinetic.com</p>
         </div>

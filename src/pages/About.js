@@ -1,10 +1,10 @@
 import React from "react";
 import "../App.css";
+import Layout from "../components/layout/Layout";
 import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
-import Layout from "../components/layout/Layout";
 
-function Home() {
+export default function About() {
   return (
     <Layout>
       <motion.div
@@ -13,10 +13,8 @@ function Home() {
         exit="exit"
         variants={pageVariants}
       >
-        <h2>welcome</h2>
+        <h2>about</h2>
       </motion.div>
     </Layout>
   );
 }
-
-export default Home;
