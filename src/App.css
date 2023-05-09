@@ -6,7 +6,7 @@
 -------------------*/
 
 header, nav, main, footer, .email, .banner, .education, .skills, .experience
-, .my-info {
+, .my-info, .pic, .img, .body {
     border: 2px solid black;
 }
 
@@ -14,12 +14,31 @@ header, nav, main, footer, .email, .banner, .education, .skills, .experience
 /* 2:NAV */
 /* 3:CONTENT */
 
-main {
-    overflow: hidden;
+h2 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
 }
 
+h5 {
+    margin-bottom: 50px !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+}
+
+.img img {
+    display: block;
+    margin: 0 auto;
+}
+
+.thumb {
+    height: 250px;
+    width: 300px;
+  }
+
 .education, .experience, .skills {
-    padding: 20px;
+    padding: 50px;
 }
 
 .resume-body div {

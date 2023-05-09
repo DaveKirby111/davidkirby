@@ -1,32 +1,13 @@
 import "../App.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { links } from "./NavArray";
 
-const links = [
-  {
-    id: 1,
-    url: "/",
-    page: "home",
-  },
-
-  {
-    id: 2,
-    url: "/about",
-    page: "about",
-  },
-
-  {
-    id: 3,
-    url: "/resume",
-    page: "resume",
-  },
-
-  {
-    id: 4,
-    url: "/gallery",
-    page: "gallery",
-  },
-];
+const active = ({ isActive }) => {
+  return {
+    textDecoration: isActive ? "underline" : "none",
+  };
+};
 
 function Nav() {
   return (
@@ -35,7 +16,7 @@ function Nav() {
         {links.map((link) => {
           return (
             <li className="nav-item" key={link.id}>
-              <NavLink to={link.url} className="nav-link">
+              <NavLink to={link.url} className="nav-link" style={active}>
                 {link.page}
               </NavLink>
             </li>

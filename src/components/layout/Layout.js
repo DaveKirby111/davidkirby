@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
 
       <footer>
         <div className="email w-25 text-center">
-          <h5 className="text-capitalize">email:</h5>
+          <h4 className="text-capitalize">email:</h4>
           <p>david@kinetic.com</p>
         </div>
       </footer>
