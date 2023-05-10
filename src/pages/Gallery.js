@@ -7,15 +7,13 @@ import { gallery } from "../components/GalleryArray";
 
 export default function Gallery() {
   return (
-    <Layout>
+    <Layout pageTitle="gallery">
       <motion.div
         initial="initial"
         animate="animate"
         exit="exit"
         variants={pageVariants}
       >
-        <h2>gallery</h2>
-
         <div className="container p-2">
           {gallery.map((image) => {
             return (

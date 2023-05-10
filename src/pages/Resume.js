@@ -6,14 +6,14 @@ import { pageVariants } from "../components/PageVariants";
 
 export default function Resume() {
   return (
-    <Layout>
+    <Layout pageTitle="resume">
       <motion.div
         initial="initial"
         animate="animate"
         exit="exit"
         variants={pageVariants}
       >
-        <div className="my-info text-capitalize w-25 mx-auto mb-5 mt-5 text-center">
+        <div className="my-info text-capitalize w-25 mx-auto mb-2 mt-5 text-center">
           <h2 className="mb-0">david kirby</h2>
           <p className="text-lowercase mb-0">david@kinetic.com</p>
           <p>Alabama, USA</p>

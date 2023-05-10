@@ -16,7 +16,7 @@ const styles = {
 
 export default function Work() {
   return (
-    <Layout>
+    <Layout pageTitle="work">
       <motion.div
         initial="initial"
         animate="animate"

@@ -6,15 +6,13 @@ import Layout from "../components/layout/Layout";
 
 function Home() {
   return (
-    <Layout>
+    <Layout pageTitle="welcome">
       <motion.div
         initial="initial"
         animate="animate"
         exit="exit"
         variants={pageVariants}
-      >
-        <h2>welcome</h2>
-      </motion.div>
+      ></motion.div>
     </Layout>
   );
 }

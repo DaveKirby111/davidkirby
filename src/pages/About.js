@@ -6,15 +6,13 @@ import { pageVariants } from "../components/PageVariants";
 
 export default function About() {
   return (
-    <Layout>
+    <Layout pageTitle="about me">
       <motion.div
         initial="initial"
         animate="animate"
         exit="exit"
         variants={pageVariants}
-      >
-        <h2>about</h2>
-      </motion.div>
+      ></motion.div>
     </Layout>
   );
 }
