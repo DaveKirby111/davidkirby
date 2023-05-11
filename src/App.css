@@ -6,11 +6,17 @@
 -------------------*/
 
 header, nav, main, footer, .email, .banner, .education, .skills, .experience
-, .my-info, .pic, .img, .body, .info {
+, .my-info, .pic, .img, .body, .info, .about-container, .myPic, .profile 
+{
     border: 2px solid black;
 }
 
 /* 1:HEADER */
+
+header a {
+    text-decoration: none;
+}
+
 /* 2:NAV */
 
 nav a:hover {
@@ -18,6 +24,7 @@ nav a:hover {
 }
 
 /* 3:CONTENT */
+  
 
 h2 {
     text-align: center;
@@ -31,6 +38,21 @@ h5 {
     margin-bottom: 50px !important;
     font-weight: bold !important;
     font-size: 25px !important;
+}
+
+.myPic caption {
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.me {
+    height: 450px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .pic:first-child {

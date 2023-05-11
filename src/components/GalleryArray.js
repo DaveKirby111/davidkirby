@@ -1,5 +1,6 @@
 import ix from "../images/mypainting.jpg";
 import shield from "../images/shield.jpg";
+import objects from "../images/objects.jpg";
 
 export const gallery = [
   {
@@ -18,5 +19,14 @@ export const gallery = [
     art: "Paint: ",
     medium: "Acrylic",
     body: "This was a painting that I did in college. It is the Superman shield in the colors of Superboy, Connor Kent.",
+  },
+
+  {
+    image: objects,
+    alt: "Objects",
+    title: "Objects",
+    art: "Paint: ",
+    medium: "Acrylic",
+    body: "This is another painting that I did in college. It is various items: oven mitt, rock, hat and a rag.",
   },
 ];

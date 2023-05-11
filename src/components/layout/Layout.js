@@ -1,11 +1,14 @@
 import Nav from "../Nav";
+import { Link } from "react-router-dom";
 
 const Layout = ({ children, pageTitle }) => {
   return (
     <div className="container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
       <header>
         <div className="banner d-flex w-100">
-          <h1 className="ms-5">Kirby's World</h1>
+          <Link to="/" className="nav-link">
+            <h1 className="ms-5">Kirby's World</h1>
+          </Link>
           <Nav></Nav>
         </div>
         <h2>{pageTitle}</h2>
