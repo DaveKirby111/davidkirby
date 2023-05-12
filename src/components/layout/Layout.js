@@ -17,9 +17,16 @@ const Layout = ({ children, pageTitle }) => {
       <main className="flex-grow-1">{children}</main>
 
       <footer className="d-flex">
-        <div className="email w-25 text-center">
-          <h4 className="text-capitalize mt-3">email:</h4>
-          <p>david@kinetic.com</p>
+        <div className="email w-25 text-center d-flex justify-content-center align-items-center">
+          <h4 className="text-capitalize">
+            <a
+              href="mailto:davidkirby225@gmail.com"
+              className="text-decoration-none"
+            >
+              <i className="icon fas fa-envelope" />
+              email
+            </a>
+          </h4>
         </div>
         <p className="author align-self-center mx-auto">David Kirby 2023</p>
       </footer>

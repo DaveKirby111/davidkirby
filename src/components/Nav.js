@@ -17,6 +17,7 @@ function Nav() {
           return (
             <li className="nav-item" key={link.id}>
               <NavLink to={link.url} className="nav-link" style={active}>
+                <i className={link.icon}></i>
                 {link.page}
               </NavLink>
             </li>

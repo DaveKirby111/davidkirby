@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
 
 import placeholder from "../images/placeholder.png";
+import resume from "../assets/Resume.pdf";
 
 export default function About() {
   return (
@@ -20,9 +21,14 @@ export default function About() {
             <img src={placeholder} alt="me" className="me" />
             <caption className="mb-5">Pic coming soon.</caption>
             <p className="fw-bold">Resume:</p>
-            <p className="mb-5">Link coming soon.</p>
+            <p className="pdf mb-5">
+              <a href={resume} className="fw-bold">
+                Open
+              </a>{" "}
+              pdf
+            </p>
             <p className="fw-bold">Contact Info:</p>
-            <p>david@kinetic.com</p>
+            <p>davidkirby225@gmail.com</p>
           </div>
 
           <div className="profile w-50 p-5">
@@ -41,11 +47,14 @@ export default function About() {
               of years before I continued my education at Jefferson State
               Community College. I decided on web development, seeing it as a
               middle ground between being creative and doing something
-              structured. After getting my Associated degree in Web
-              Technologies, I was never able to get hired as a web developer. I
-              eventually ended up washing dishes in kitchen before getting
-              another job at Dollar General as a cashier. After over a year, I
-              left that job as it was not good for my overall health.
+              structured.
+            </p>
+            <p>
+              After getting my Associates degree in Web Technologies, I was
+              never able to get hired as a web developer. I eventually ended up
+              washing dishes in kitchen before getting another job at Dollar
+              General as a cashier. After over a year, I left that job as it was
+              not good for my overall health.
             </p>
             <p className="mb-5">
               I now have an internship at Kinetic Communications which I have

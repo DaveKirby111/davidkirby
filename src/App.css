@@ -11,6 +11,10 @@ header, nav, main, footer, .email, .banner, .education, .skills, .experience
     border: 2px solid black;
 }
 
+.icon {
+    margin-right: 10px;
+}
+
 /* 1:HEADER */
 
 header a {
@@ -45,6 +49,14 @@ h5 {
     text-align: center;
     display: block;
     margin: 0 auto;
+}
+
+.pdf a{
+    text-decoration: none !important;
+}
+
+.pdf a:hover {
+    text-decoration: underline !important;
 }
 
 .me {

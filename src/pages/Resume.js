@@ -15,7 +15,7 @@ export default function Resume() {
       >
         <div className="my-info text-capitalize w-25 mx-auto mb-2 mt-5 text-center">
           <h2 className="mb-0">david kirby</h2>
-          <p className="text-lowercase mb-0">david@kinetic.com</p>
+          <p className="text-lowercase mb-0">davidkirby225@gmail.com</p>
           <p>Alabama, USA</p>
         </div>
 
@@ -36,6 +36,7 @@ export default function Resume() {
               </div>
               <div className="college2 flex-fill">
                 <p className="fw-bold">Jefferson State Community College</p>
+                <p>2012-2014</p>
                 <p>Associates: Web Technologies</p>
               </div>
             </div>
@@ -66,7 +67,7 @@ export default function Resume() {
           <div className="skills">
             <h3>skills</h3>
 
-            <div className="list d-flex">
+            <div className="list d-flex justify-content-center">
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -80,7 +81,7 @@ export default function Resume() {
               <ul className="ms-5">
                 <li>Bootstrap 5</li>
                 <li>Sass</li>
-                <li>Tailwind</li>
+                <li>Git and Github</li>
               </ul>
             </div>
           </div>
