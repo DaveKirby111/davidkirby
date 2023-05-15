@@ -4,6 +4,7 @@ import objects from "../images/objects.jpg";
 
 export const gallery = [
   {
+    id: 1,
     image: ix,
     alt: "IX",
     title: "IX",
@@ -13,6 +14,7 @@ export const gallery = [
   },
 
   {
+    id: 2,
     image: shield,
     alt: "Shield",
     title: "Shield",
@@ -22,6 +24,7 @@ export const gallery = [
   },
 
   {
+    id: 3,
     image: objects,
     alt: "Objects",
     title: "Objects",

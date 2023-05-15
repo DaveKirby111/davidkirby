@@ -7,12 +7,19 @@ export default function ImagePopup(props) {
       <img
         src={props.image}
         alt={props.alt}
-        className="thumb"
         data-bs-toggle="modal"
         data-bs-target="#image"
+        className="thumb"
+        title={props.alt}
       />
 
-      <div className="modal fade" id="image" tabIndex="-1" aria-hidden="true">
+      <div
+        className="modal fade"
+        id="image"
+        tabIndex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-body">
@@ -20,7 +27,7 @@ export default function ImagePopup(props) {
                 type="button"
                 className="btn-close"
                 data-bs-dismiss="modal"
-                aria-label="Close"
+                aria-label="close"
               ></button>
               <img
                 src={props.image}

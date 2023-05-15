@@ -76,9 +76,15 @@ h5 {
     margin: 0 auto;
 }
 
+.container > * {
+    flex: 1;
+}
+
 .thumb {
-    height: 250px;
-    width: 300px;
+   object-fit: cover;
+   max-width: 100%;
+   height: auto;
+   box-shadow: 5px 5px 5px darkgray;
   }
 
 .education, .experience, .skills {
