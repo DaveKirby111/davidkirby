@@ -32,7 +32,9 @@ export default function About() {
           </div>
 
           <div className="profile w-50 p-5">
-            <p className="h5 fw-bold mb-4 text-decoration-underline">Intro</p>
+            <p className="h5 fw-bold mb-4 text-decoration-underline">
+              Background
+            </p>
             <p>
               My name is David Kirby and I make websites. I first started
               drawing when I was in elementary school and continued to improve

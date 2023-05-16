@@ -5,14 +5,19 @@
 4. FOOTER
 -------------------*/
 
-header, nav, main, footer, .email, .banner, .education, .skills, .experience
-, .my-info, .pic, .img, .body, .info, .about-container, .myPic, .profile 
+header, nav, main, footer, .email, .banner, .my-info .img, .info, 
+.about-container, .myPic, .profile
 {
     border: 2px solid black;
 }
 
 .icon {
     margin-right: 10px;
+}
+
+.modal-backdrop {
+    /* bug fix - no overlay */    
+    display: none;    
 }
 
 /* 1:HEADER */
@@ -38,10 +43,33 @@ h2 {
     font-size: 35px !important;
 }
 
+h3 {
+    margin-bottom: 30px !important;
+}
+
 h5 {
     margin-bottom: 50px !important;
     font-weight: bold !important;
     font-size: 25px !important;
+}
+
+.education, .experience {
+    border-bottom: 1px solid black;
+}
+
+.thumb {
+    cursor: pointer;
+}
+
+.body h5 {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.body {
+    border: 1px solid darkgray;
+    box-shadow: 1px 3px 5px darkgray;
 }
 
 .myPic caption {

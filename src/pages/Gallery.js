@@ -19,14 +19,24 @@ export default function Gallery() {
         <div className="container p-2">
           {gallery.map((image) => {
             return (
-              <div className="pic d-flex mb-3" key={image.id}>
+              <div
+                className="pic d-flex mb-5"
+                key={image.id}
+                style={{ width: "100%", height: "250px" }}
+              >
                 <div className="img p-2 w-25">
-                  <ImagePopup image={image.image} alt={image.alt} />
+                  <ImagePopup
+                    image={image.image}
+                    alt={image.alt}
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      objectFit: "contain",
+                    }}
+                  />
                 </div>
-                <div className="body w-75 p-3">
-                  <h5 className="text-center text-decoration-underline">
-                    Title: {image.title}
-                  </h5>
+                <div className="body w-50 mx-auto">
+                  <h5 className="text-center">{image.title}</h5>
                   <div className="body-text w-75 mx-auto">
                     <p>
                       <span className="fw-bold">{image.art}</span>
