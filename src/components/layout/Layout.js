@@ -5,7 +5,7 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <div className="container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
       <header>
-        <div className="banner d-flex w-100">
+        <div className="banner d-flex align-items-center w-100">
           <Link to="/" className="nav-link">
             <h1 className="ms-5">Kirby's World</h1>
           </Link>

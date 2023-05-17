@@ -15,7 +15,7 @@ export default function Resume() {
       >
         <div className="my-info text-capitalize w-25 mx-auto mb-2 mt-5 text-center">
           <h2 className="mb-0">david kirby</h2>
-          <p className="text-lowercase mb-0">davidkirby225@gmail.com</p>
+
           <p>Alabama, USA</p>
         </div>
 

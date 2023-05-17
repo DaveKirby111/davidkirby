@@ -20,15 +20,36 @@ export default function About() {
           <div className="myPic w-50 p-5">
             <img src={placeholder} alt="me" className="me" />
             <caption className="mb-5">Pic coming soon.</caption>
-            <p className="fw-bold">Resume:</p>
-            <p className="pdf mb-5">
-              <a href={resume} className="fw-bold">
-                Open
-              </a>{" "}
-              pdf
-            </p>
-            <p className="fw-bold">Contact Info:</p>
-            <p>davidkirby225@gmail.com</p>
+
+            <div className="about-info">
+              <p className="fw-bold">Resume:</p>
+              <p className="pdf mb-5">
+                <a
+                  href={resume}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="fw-bold"
+                >
+                  Open
+                </a>{" "}
+                pdf
+              </p>
+              <p className="fw-bold">Contact Info:</p>
+              <p className="mb-5">davidkirby225@gmail.com</p>
+
+              <p className="fw-bold">LinkedIn:</p>
+              <p>
+                Click{" "}
+                <a
+                  href="https://www.linkedin.com/in/david-kirby-64a1487a/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="fw-bold"
+                >
+                  here
+                </a>
+              </p>
+            </div>
           </div>
 
           <div className="profile w-50 p-5">
@@ -63,14 +84,21 @@ export default function About() {
               been enjoying. During my time here I have had the opportunity to
               expand my knowledge of coding and grow as a web developer.
             </p>
+
             <p className="h5 fw-bold mb-4 text-decoration-underline">
               Interests
             </p>
             <p>
-              In my free time I enjoy super hero media such as comic books, tv
-              and movies. Video games are a hobby that I enjoy, more
-              specifically role playing games that revolve around science
-              fiction or fantasy settings.
+              In my free time I enjoy comic books, tv and movies. Video games
+              are a hobby that I enjoy, more specifically role playing games
+              that revolve around science fiction or fantasy settings.
+            </p>
+            <p>
+              I took karate when I was younger and even competed in a couple of
+              tournaments while I was in school. I only stopped when I was in
+              6th grade because my parents got divorced and had to transfer to a
+              new school. I still have an interest in martial arts even though I
+              have not done it in years.
             </p>
           </div>
         </div>
