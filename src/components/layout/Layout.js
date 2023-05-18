@@ -7,9 +7,9 @@ const Layout = ({ children, pageTitle }) => {
       <header>
         <div className="banner d-flex align-items-center w-100">
           <Link to="/" className="nav-link">
-            <h1 className="ms-5">Kirby's World</h1>
+            <h1 className="ms-5">David Kirby</h1>
           </Link>
-          <Nav></Nav>
+          <Nav />
         </div>
         <h2>{pageTitle}</h2>
       </header>

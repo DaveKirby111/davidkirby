@@ -100,6 +100,14 @@ export default function About() {
               new school. I still have an interest in martial arts even though I
               have not done it in years.
             </p>
+            <p>
+              I don't normally read a lot of books, but there are certain series
+              that I have purchased and intend to get around to reading. One
+              example is the Witcher series of books. Being a fan of the games I
+              wanted to get the books as well. I have read the first couple of
+              books but have yet to start the rest. I also have a few of the
+              Star Wars books.
+            </p>
           </div>
         </div>
       </motion.div>
