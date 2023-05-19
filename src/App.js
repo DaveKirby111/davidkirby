@@ -5,7 +5,6 @@ import { AnimatePresence } from "framer-motion";
 import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import About from "./pages/About";
-import Gallery from "./pages/Gallery";
 import Work from "./pages/Work";
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/work" element={<Work />} />
-          <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </AnimatePresence>
     </div>

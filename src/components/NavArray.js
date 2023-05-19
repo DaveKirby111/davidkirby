@@ -26,11 +26,4 @@ export const links = [
     page: "work",
     icon: "icon fas fa-archive",
   },
-
-  {
-    id: 5,
-    url: "/gallery",
-    page: "gallery",
-    icon: "icon fas fa-images",
-  },
 ];
