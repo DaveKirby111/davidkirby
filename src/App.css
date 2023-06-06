@@ -6,7 +6,7 @@
 -------------------*/
 
 header, nav, main, footer, .email, .banner, .my-info .img, .info, .about-container, 
-.myPic, .profile, .about-info
+.myPic, .profile, .about-info, .gallery-container, .resume-body
 {
     border: 2px solid black;
 }
@@ -15,8 +15,9 @@ header, nav, main, footer, .email, .banner, .my-info .img, .info, .about-contain
     margin-right: 10px;
 }
 
-.modal-backdrop {
-    /* bug fix - no overlay */    
+/* bug fix - no overlay */ 
+
+.modal-backdrop {   
     display: none;    
 }
 
@@ -78,6 +79,21 @@ h5 {
 .body {
     border: 1px solid darkgray;
     box-shadow: 1px 3px 5px darkgray;
+}
+
+.about-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-container {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .myPic caption {

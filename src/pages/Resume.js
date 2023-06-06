@@ -13,15 +13,15 @@ export default function Resume() {
         exit="exit"
         variants={pageVariants}
       >
-        <div className="my-info text-capitalize w-25 mx-auto mb-2 mt-5 text-center">
+        <div className="my-info text-capitalize w-25 mx-auto mt-5 text-center">
           <h2 className="mb-0">david kirby</h2>
 
           <p>Alabama, USA</p>
         </div>
 
-        <div className="resume-body p-5">
+        <div className="resume-body p-5 w-75 mx-auto">
           <div className="education">
-            <h3>education</h3>
+            <h3 className="mb-5">education</h3>
 
             <div className="school d-flex justify-content-between text-center">
               <div className="high flex-fill">
@@ -43,7 +43,7 @@ export default function Resume() {
           </div>
 
           <div className="experience">
-            <h3>experience</h3>
+            <h3 className="mb-5">experience</h3>
 
             <div className="work text-center d-flex justify-content-between">
               <div className="flex-fill">
@@ -65,7 +65,7 @@ export default function Resume() {
           </div>
 
           <div className="skills">
-            <h3>skills</h3>
+            <h3 className="mb-5">skills</h3>
 
             <div className="list d-flex justify-content-center">
               <ul>

@@ -16,7 +16,7 @@ export default function About() {
         exit="exit"
         variants={pageVariants}
       >
-        <div className="about-container d-flex">
+        <div className="about-container d-flex mt-5 mb-5">
           <div className="myPic w-50 p-5">
             <img src={placeholder} alt="me" className="me" />
             <caption className="mb-5">Pic coming soon.</caption>
