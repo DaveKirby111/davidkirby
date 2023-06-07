@@ -5,7 +5,7 @@ import Layout from "../components/layout/Layout";
 import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
 import { gallery } from "../components/GalleryArray";
-import ImagePopup from "../components/ImagePopup";
+import MyModal from "../components/MyModal";
 
 export default function Gallery() {
   // Helper function to chunk the gallery array into groups of two
@@ -39,14 +39,10 @@ export default function Gallery() {
                 >
                   <div className="pic d-flex flex-column p-4">
                     <div className="img p-2 mb-3 w-75 mx-auto">
-                      <ImagePopup
+                      <MyModal
                         image={image.image}
                         alt={image.alt}
-                        style={{
-                          maxWidth: "100%",
-                          maxHeight: "100%",
-                          objectFit: "contain",
-                        }}
+                        title={image.title}
                       />
                     </div>
 

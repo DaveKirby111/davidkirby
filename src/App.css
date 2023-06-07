@@ -6,19 +6,13 @@
 -------------------*/
 
 header, nav, main, footer, .email, .banner, .my-info .img, .info, .about-container, 
-.myPic, .profile, .about-info, .gallery-container, .resume-body
+.myPic, .profile, .about-info, .gallery-container, .resume-body, .works
 {
     border: 2px solid black;
 }
 
 .icon {
     margin-right: 10px;
-}
-
-/* bug fix - no overlay */ 
-
-.modal-backdrop {   
-    display: none;    
 }
 
 body {
