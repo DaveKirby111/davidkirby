@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import { useState } from "react";
 
 const styles = {
   image: {

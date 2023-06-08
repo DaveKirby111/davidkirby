@@ -21,7 +21,7 @@ export default function About() {
             <img src={placeholder} alt="me" className="me" />
             <caption className="mb-5">Pic coming soon.</caption>
 
-            <div className="about-info">
+            <div className="about-info p-5">
               <p className="fw-bold">Resume:</p>
               <p className="pdf mb-5">
                 <a

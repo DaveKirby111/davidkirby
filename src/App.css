@@ -15,7 +15,7 @@ header, nav, main, footer, .email, .banner, .my-info .img, .info, .about-contain
     margin-right: 10px;
 }
 
-body {
+html, body {
     height: 100%;
 }
 
