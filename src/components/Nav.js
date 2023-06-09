@@ -15,7 +15,7 @@ function Nav() {
       <ul className="navbar-nav">
         {links.map((link) => {
           return (
-            <li className="nav-item" key={link.id}>
+            <li className="nav-item ms-3" key={link.id}>
               <NavLink to={link.url} className="nav-link" style={active}>
                 <i className={link.icon}></i>
                 {link.page}

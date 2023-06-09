@@ -6,7 +6,7 @@ import Layout from "../components/layout/Layout";
 
 function Home() {
   return (
-    <Layout pageTitle="welcome">
+    <Layout>
       <motion.div
         initial="initial"
         animate="animate"
