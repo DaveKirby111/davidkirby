@@ -1,0 +1,29 @@
+nav a:hover {
+    text-decoration: underline !important;
+}
+
+.nav-link-dark {
+  color: white !important;
+}
+
+.nav-link-light {
+  color: black !important;
+}
+
+.nav-link-light.active {
+  text-decoration: underline !important;
+}
+
+.nav-link-dark.active {
+  color: cyan !important;
+  text-decoration: underline !important;
+}
+
+.nav-link-dark:hover {
+  color: cyan !important;
+  text-decoration: underline !important;
+}
+
+.icon {
+  margin-right: 10px;
+}

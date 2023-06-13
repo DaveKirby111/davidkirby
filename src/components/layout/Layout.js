@@ -1,17 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Nav from "../Nav";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
 const Layout = ({ children, pageTitle }) => {
-  const [mode, setMode] = useState("light");
+  const storedMode = localStorage.getItem("mode");
+  const [mode, setMode] = useState(storedMode || "light");
 
   const toggleDark = () => {
-    if (mode === "light") {
-      setMode("dark");
-    } else {
-      setMode("light");
-    }
+    const newMode = mode === "light" ? "dark" : "light";
+    setMode(newMode);
+    localStorage.setItem("mode", newMode);
   };
+
+  useEffect(() => {
+    if (storedMode) {
+      setMode(storedMode);
+    }
+  }, [storedMode]);
 
   return (
     <div className={`${mode}`}>
@@ -21,16 +28,36 @@ const Layout = ({ children, pageTitle }) => {
             <Link to="/" className="nav-link">
               <h1 className="ms-5">David Kirby</h1>
             </Link>
-            <Nav />
+
+            <div className="switch-checkbox ms-3">
+              <div className="icon-container">
+                <FontAwesomeIcon
+                  icon={faSun}
+                  className={`me-2 ${mode === "light" ? "sun-light" : ""}`}
+                />
+              </div>
+
+              <label className="switch">
+                <input
+                  type="checkbox"
+                  checked={mode === "dark"}
+                  onChange={toggleDark}
+                />
+                <span className="slider round"></span>
+              </label>
+
+              <div className="icon-container">
+                <FontAwesomeIcon
+                  icon={faMoon}
+                  className={`ms-2 ${mode === "dark" ? "moon-dark" : ""}`}
+                />
+              </div>
+            </div>
+
+            <Nav mode={mode} />
           </div>
+
           <h2>{pageTitle}</h2>
-          <button onClick={toggleDark}>Toggle</button>
-          <div className="switch-checkbox">
-            <label className="switch">
-              <input type="checkbox" checked onChange={toggleDark} />
-              <span className="slider round"></span>
-            </label>
-          </div>
         </header>
 
         <main className="flex-grow-1">{children}</main>
@@ -40,7 +67,9 @@ const Layout = ({ children, pageTitle }) => {
             <h4 className="text-capitalize">
               <a
                 href="mailto:davidkirby225@gmail.com"
-                className="text-decoration-none"
+                className={`text-decoration-none ${
+                  mode === "dark" ? "nav-link-dark" : "nav-link-light"
+                }`}
               >
                 <i className="icon fas fa-envelope" />
                 email
