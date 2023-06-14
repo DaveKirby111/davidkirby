@@ -11,11 +11,11 @@ const active = ({ isActive }) => {
 
 function Nav({ mode }) {
   return (
-    <nav className="navbar navbar-expand-sm ms-auto text-capitalize">
-      <ul className="navbar-nav">
+    <nav className="navbar navbar-expand-sm ms-auto text-capitalize w-100">
+      <ul className="navbar-nav mx-auto">
         {links.map((link) => {
           return (
-            <li className="nav-item ms-2" key={link.id}>
+            <li className="nav-item ms-5" key={link.id}>
               <NavLink
                 to={link.url}
                 className={`nav-link ${

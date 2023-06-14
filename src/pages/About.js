@@ -4,7 +4,7 @@ import Layout from "../components/layout/Layout";
 import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
 
-import placeholder from "../images/placeholder.png";
+import me from "../images/Me.jpg";
 import resume from "../assets/Resume.pdf";
 
 export default function About() {
@@ -18,8 +18,7 @@ export default function About() {
       >
         <div className="about-container d-flex mt-5 mb-5">
           <div className="myPic w-50 p-5">
-            <img src={placeholder} alt="me" className="me" />
-            <caption className="mb-5">Pic coming soon.</caption>
+            <img src={me} alt="me" className="me mb-5" />
 
             <div className="about-info p-5">
               <p className="fw-bold">Resume:</p>

@@ -4,31 +4,43 @@
 @import "Content.css";
 @import "Footer.css";
 
-
-header, nav, main, footer, .email, .banner, .my-info .img, .info, .about-container, 
-.myPic, .profile, .about-info, .gallery-container, .resume-body, .works, .slanted
-{
-    border: 2px solid black;
+header,
+nav,
+main,
+footer,
+.email,
+.banner,
+.my-info .img,
+.info,
+.about-container,
+.myPic,
+.profile,
+.about-info,
+.gallery-container,
+.resume-body,
+.works {
+  border: 2px solid black;
 }
 
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
 
 .dark {
-    background-color: #333;
-    color: #fff;
-  }
+  background-color: #333;
+  color: #fff;
+}
 
 .light {
-    background-color: #fff;
-    color: #333;
-  }
+  background-color: #fff;
+  color: #333;
+}
 
-  .sun-light {
-    color: yellow;
-  }
+.sun-light {
+  color: yellow;
+}
 
-  .moon-dark {
-    color: lightblue;
-  }
+.moon-dark {
+  color: lightblue;
+}
