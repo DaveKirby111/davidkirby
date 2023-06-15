@@ -16,6 +16,24 @@ h5 {
   font-size: 25px !important;
 }
 
+a.fa:hover {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
 .education,
 .experience {
   border-bottom: 1px solid black;

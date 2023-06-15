@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-const Layout = ({ children, pageTitle }) => {
+const Layout = ({ children }) => {
   const storedMode = localStorage.getItem("mode");
   const [mode, setMode] = useState(storedMode || "light");
 
@@ -56,8 +56,6 @@ const Layout = ({ children, pageTitle }) => {
 
             <Nav mode={mode} />
           </div>
-
-          <h2>{pageTitle}</h2>
         </header>
 
         <main className="flex-grow-1">{children}</main>

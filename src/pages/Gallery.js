@@ -21,7 +21,7 @@ export default function Gallery() {
   const galleryChunks = chunkArray(gallery, 2);
 
   return (
-    <Layout pageTitle="gallery">
+    <Layout>
       <motion.div
         initial="initial"
         animate="animate"

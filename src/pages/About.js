@@ -9,7 +9,7 @@ import resume from "../assets/Resume.pdf";
 
 export default function About() {
   return (
-    <Layout pageTitle="about me">
+    <Layout>
       <motion.div
         initial="initial"
         animate="animate"
@@ -36,18 +36,12 @@ export default function About() {
               <p className="fw-bold">Contact Info:</p>
               <p className="mb-5">davidkirby225@gmail.com</p>
 
-              <p className="fw-bold">LinkedIn:</p>
-              <p>
-                Click{" "}
-                <a
-                  href="https://www.linkedin.com/in/david-kirby-64a1487a/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="fw-bold"
-                >
-                  here
-                </a>
-              </p>
+              <a
+                href="https://www.linkedin.com/in/david-kirby-64a1487a/"
+                class="fa fa-linkedin"
+                rel="noreferrer"
+                target="_blank"
+              ></a>
             </div>
           </div>
 
