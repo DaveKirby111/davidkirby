@@ -36,12 +36,24 @@ export default function About() {
               <p className="fw-bold">Contact Info:</p>
               <p className="mb-5">davidkirby225@gmail.com</p>
 
+              <p className="fw-bold mb-4">Links to my profiles:</p>
+
               <a
                 href="https://www.linkedin.com/in/david-kirby-64a1487a/"
-                class="fa fa-linkedin"
                 rel="noreferrer"
                 target="_blank"
-              ></a>
+                className="me-5"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+
+              <a
+                href="https://github.com/DaveKirby111?tab=repositories"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
 
@@ -88,10 +100,8 @@ export default function About() {
             </p>
             <p>
               I took karate when I was younger and even competed in a couple of
-              tournaments while I was in school. I only stopped when I was in
-              6th grade because my parents got divorced and had to transfer to a
-              new school. I still have an interest in martial arts even though I
-              have not done it in years.
+              tournaments while I was in school. I still have an interest in
+              martial arts even though I have not done it in years.
             </p>
             <p>
               I don't normally read a lot of books, but there are certain series
