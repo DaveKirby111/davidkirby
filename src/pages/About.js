@@ -36,8 +36,6 @@ export default function About() {
               <p className="fw-bold">Contact Info:</p>
               <p className="mb-5">davidkirby225@gmail.com</p>
 
-              <p className="fw-bold mb-4">Links to my profiles:</p>
-
               <a
                 href="https://www.linkedin.com/in/david-kirby-64a1487a/"
                 rel="noreferrer"

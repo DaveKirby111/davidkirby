@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
 
   return (
     <div className={`${mode}`}>
-      <div className="container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
+      <div className="layout container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
         <header>
           <div className="banner d-flex flex-column align-items-center w-100">
             <Link to="/" className="nav-link">

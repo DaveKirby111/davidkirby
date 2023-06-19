@@ -3,6 +3,8 @@
 @import "Nav.css";
 @import "Content.css";
 @import "Footer.css";
+@import "LightMode.css";
+@import "DarkMode.css";
 
 header,
 nav,
@@ -25,16 +27,6 @@ footer,
 html,
 body {
   height: 100%;
-}
-
-.dark {
-  background-color: #333;
-  color: #fff;
-}
-
-.light {
-  background-color: #fff;
-  color: #333;
 }
 
 .sun-light {
