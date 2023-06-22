@@ -27,6 +27,41 @@ a.fa:hover {
   font-size: 20px;
 }
 
+.personal-info p {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.about-container .h5 {
+  font-size: 30px;
+}
+
+.personal-info .h5 {
+  border-bottom: none;
+}
+
+.personal-info ul {
+  list-style-type: none;
+}
+
+.personal-info li {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.resume-btn:hover {
+  text-decoration: none !important;
+  color: white;
+}
+
+.resume-btn:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+  
+
 .fa {
   padding: 20px;
   font-size: 50px;

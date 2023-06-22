@@ -4,3 +4,21 @@
     background-color: #fff;
     color: #333;
   }
+
+  .sun-light {
+    color: yellow;
+  }
+
+  .light .resume-btn {
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    background-color: gray;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    font-size: 15px !important;
+    text-align: center;
+  }

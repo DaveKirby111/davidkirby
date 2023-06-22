@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
 
 import me from "../images/Me.jpg";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/Resume.docx";
 
 export default function About() {
   return (
@@ -20,45 +20,41 @@ export default function About() {
           <div className="myPic w-50 p-5">
             <img src={me} alt="me" className="me mb-5" />
 
-            <div className="about-info p-5">
-              <p className="fw-bold">Resume:</p>
-              <p className="pdf mb-5">
+            <div className="about-info p-5 d-flex flex-column">
+              <div className="personal-info mb-3">
+                <p className="h5 fw-bold mb-4">Personal Information</p>
+                <p>Email: davidkirby225@gmail.com</p>
+                <p>Address: McCalla, AL</p>
+              </div>
+
+              <a href={resume} className="resume-btn mb-5 p-2">
+                <i class="fa-solid fa-file-arrow-down me-2"></i>
+                Download Resume
+              </a>
+
+              <div className="d-flex">
                 <a
-                  href={resume}
-                  target="_blank"
+                  href="https://www.linkedin.com/in/david-kirby-64a1487a/"
                   rel="noreferrer"
-                  className="fw-bold"
+                  target="_blank"
+                  className="me-5"
                 >
-                  Open
-                </a>{" "}
-                pdf
-              </p>
-              <p className="fw-bold">Contact Info:</p>
-              <p className="mb-5">davidkirby225@gmail.com</p>
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
 
-              <a
-                href="https://www.linkedin.com/in/david-kirby-64a1487a/"
-                rel="noreferrer"
-                target="_blank"
-                className="me-5"
-              >
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-
-              <a
-                href="https://github.com/DaveKirby111?tab=repositories"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <i class="fa-brands fa-github"></i>
-              </a>
+                <a
+                  href="https://github.com/DaveKirby111?tab=repositories"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              </div>
             </div>
           </div>
 
           <div className="profile w-50 p-5">
-            <p className="h5 fw-bold mb-4 text-decoration-underline">
-              Background
-            </p>
+            <p className="h5 fw-bold mb-4">Background</p>
             <p>
               My name is David Kirby and I make websites. I first started
               drawing when I was in elementary school and continued to improve
@@ -88,9 +84,7 @@ export default function About() {
               expand my knowledge of coding and grow as a web developer.
             </p>
 
-            <p className="h5 fw-bold mb-4 text-decoration-underline">
-              Interests
-            </p>
+            <p className="h5 fw-bold mb-4">Interests</p>
             <p>
               In my free time I enjoy comic books, tv and movies. Video games
               are a hobby that I enjoy, more specifically role playing games

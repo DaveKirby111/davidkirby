@@ -13,13 +13,7 @@ export default function Resume() {
         exit="exit"
         variants={pageVariants}
       >
-        <div className="my-info text-capitalize w-25 mx-auto mt-5 text-center">
-          <h2 className="mb-0">david kirby</h2>
-
-          <p>Alabama, USA</p>
-        </div>
-
-        <div className="resume-body p-5 w-75 mx-auto">
+        <div className="resume-body p-5 w-75 mt-5 mx-auto">
           <div className="education">
             <h3 className="mb-5">education</h3>
 

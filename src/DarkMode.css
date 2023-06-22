@@ -2,3 +2,21 @@
     background-color: #333;
     color: #fff;
   }
+
+  .moon-dark {
+    color: lightblue;
+  }
+
+  .dark .resume-btn {
+    text-decoration: none;
+    border: none;
+    padding: 12px 40px;
+    background-color: #19a2c1;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    font-size: 15px !important;
+    text-align: center;
+  }
