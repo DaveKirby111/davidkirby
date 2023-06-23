@@ -20,3 +20,13 @@
     font-size: 15px !important;
     text-align: center;
   }
+
+  .dark .personal-info p {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .dark .personal-info .h5 {
+    border-bottom: none;
+  }

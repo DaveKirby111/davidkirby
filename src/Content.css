@@ -27,18 +27,8 @@ a.fa:hover {
   font-size: 20px;
 }
 
-.personal-info p {
-  border-bottom: 1px solid gray;
-  padding: 10px;
-  margin-bottom: 10px;
-}
-
 .about-container .h5 {
   font-size: 30px;
-}
-
-.personal-info .h5 {
-  border-bottom: none;
 }
 
 .personal-info ul {
