@@ -14,17 +14,21 @@ footer,
 .banner,
 .my-info .img,
 .info,
-.about-container,
 .myPic,
 .profile,
 .about-info,
-.gallery-container,
-.resume-body,
-.works {
+.works,
+.switch-checkbox {
   border: 2px solid black;
 }
 
 html,
 body {
   height: 100%;
+}
+
+.gallery-container,
+.about-container,
+.resume-body {
+  border: 5px double black;
 }

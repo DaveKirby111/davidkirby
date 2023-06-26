@@ -11,7 +11,7 @@ const active = ({ isActive }) => {
 
 function Nav({ mode }) {
   return (
-    <nav className="navbar navbar-expand-sm ms-auto text-capitalize w-100">
+    <nav className="navbar navbar-expand-sm ms-auto text-capitalize w-50">
       <ul className="navbar-nav mx-auto">
         {links.map((link) => {
           return (

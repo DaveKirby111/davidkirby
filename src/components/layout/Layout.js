@@ -24,12 +24,12 @@ const Layout = ({ children }) => {
     <div className={`${mode}`}>
       <div className="layout container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
         <header>
-          <div className="banner d-flex flex-column align-items-center w-100">
+          <div className="banner d-flex align-items-center w-100">
             <Link to="/" className="nav-link">
-              <h1 className="ms-5 mt-5 mb-4">David Kirby</h1>
+              <h1 className="ms-4">David Kirby</h1>
             </Link>
 
-            <div className="switch-checkbox ms-3 mb-5">
+            <div className="switch-checkbox">
               <div className="icon-container">
                 <FontAwesomeIcon
                   icon={faSun}

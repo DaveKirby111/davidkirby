@@ -9,6 +9,12 @@
     color: yellow;
   }
 
+  .light .resume-body,
+  .light .about-container,
+  .light .gallery-container {
+    background: white;
+  }
+
   .light .resume-btn {
     text-decoration: none;
     border: none;

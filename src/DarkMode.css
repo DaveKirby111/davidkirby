@@ -3,6 +3,16 @@
     color: #fff;
   }
 
+  .dark main {
+    background-color: black;
+  }
+
+  .dark .resume-body,
+  .dark .about-container,
+  .dark .gallery-container {
+    background-color: #333;
+  }
+
   .moon-dark {
     color: lightblue;
   }
