@@ -43,17 +43,17 @@ export default function Resume() {
               <div className="flex-fill">
                 <p className="fw-bold">Kinetic Communications</p>
                 <p>2022-Present</p>
-                <p>Title: Intern</p>
+                <p>Intern</p>
               </div>
               <div className="flex-fill">
                 <p className="fw-bold">Dollar General</p>
                 <p>2021-2022</p>
-                <p>Title: Cashier</p>
+                <p>Cashier</p>
               </div>
               <div className="flex-fill">
                 <p className="fw-bold">Bon Appétit</p>
                 <p>2020-2021</p>
-                <p>Title: Dishwasher</p>
+                <p>Dishwasher</p>
               </div>
             </div>
           </div>

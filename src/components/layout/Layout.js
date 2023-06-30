@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
               <h1 className="ms-4">David Kirby</h1>
             </Link>
 
-            <div className="switch-checkbox">
+            <div className="switch-checkbox ms-5">
               <div className="icon-container">
                 <FontAwesomeIcon
                   icon={faSun}

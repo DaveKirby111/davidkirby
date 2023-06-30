@@ -13,6 +13,7 @@
   .light .about-container,
   .light .gallery-container {
     background: white;
+    box-shadow: 15px 15px 15px black;
   }
 
   .light .resume-btn {
@@ -37,4 +38,8 @@
 
   .light .personal-info .h5 {
     border-bottom: none;
+  }
+
+  .light main {
+    background: linear-gradient(black, lightgreen, green, darkgreen)
   }

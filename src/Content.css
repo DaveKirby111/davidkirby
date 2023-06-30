@@ -171,3 +171,9 @@ a:hover {
   text-decoration: underline;
   margin-bottom: 20px;
 }
+
+.gallery-container,
+.about-container,
+.resume-body {
+  border: 5px double black;
+}

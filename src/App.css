@@ -6,6 +6,9 @@
 @import "LightMode.css";
 @import "DarkMode.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
+
+
 header,
 nav,
 main,
@@ -25,10 +28,10 @@ footer,
 html,
 body {
   height: 100%;
+
 }
 
-.gallery-container,
-.about-container,
-.resume-body {
-  border: 5px double black;
+header, main, nav, footer {
+  font-family: 'Judson', serif;
 }
+  
