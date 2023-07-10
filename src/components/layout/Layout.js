@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
+import dk from "../../images/dk.png";
+
 const Layout = ({ children }) => {
   const storedMode = localStorage.getItem("mode");
   const [mode, setMode] = useState(storedMode || "light");
@@ -26,7 +28,7 @@ const Layout = ({ children }) => {
         <header>
           <div className="banner d-flex align-items-center w-100">
             <Link to="/" className="nav-link">
-              <h1 className="ms-4">David Kirby</h1>
+              <img src={dk} alt="logo" height={"100px"} width={"200px"} />
             </Link>
 
             <div className="switch-checkbox ms-5">

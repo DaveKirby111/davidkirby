@@ -10,3 +10,7 @@ header a:hover {
 header h1 {
   font-size: 50px;
 }
+
+header {
+  height: 200px;
+}
