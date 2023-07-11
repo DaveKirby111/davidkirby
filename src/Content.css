@@ -174,6 +174,8 @@ a:hover {
 
 .gallery-container,
 .about-container,
-.resume-body {
+.resume-body,
+.intro,
+.works {
   border: 5px double black;
 }

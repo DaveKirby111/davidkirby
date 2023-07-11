@@ -11,7 +11,9 @@
 
   .light .resume-body,
   .light .about-container,
-  .light .gallery-container {
+  .light .gallery-container,
+  .light .intro,
+  .light .works {
     background: white;
     box-shadow: 15px 15px 15px black;
   }

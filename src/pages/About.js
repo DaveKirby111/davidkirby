@@ -22,7 +22,7 @@ export default function About() {
 
             <div className="about-info p-5 d-flex flex-column">
               <div className="personal-info mb-3">
-                <p className="h5 fw-bold mb-4">Personal Information</p>
+                <p className="h5 fw-bold mb-4">Information</p>
                 <p>Email: davidkirby225@gmail.com</p>
                 <p>Address: McCalla, AL</p>
               </div>

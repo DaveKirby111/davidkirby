@@ -13,8 +13,8 @@ export default function Work() {
         exit="exit"
         variants={pageVariants}
       >
-        <div className="works w-75 mx-auto mt-5 mb-5">
-          <h3 className="text-center">Coming Soon.</h3>
+        <div className="works p-5 w-75 mt-5 mx-auto">
+          <h1 className="text-center">Coming Soon</h1>
         </div>
       </motion.div>
     </Layout>

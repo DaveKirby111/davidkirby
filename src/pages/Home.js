@@ -12,7 +12,13 @@ function Home() {
         animate="animate"
         exit="exit"
         variants={pageVariants}
-      ></motion.div>
+      >
+        <div className="intro p-5 w-75 mt-5 mx-auto">
+          <div className="name w-25 text-center">
+            <h1>David Kirby</h1>
+          </div>
+        </div>
+      </motion.div>
     </Layout>
   );
 }
