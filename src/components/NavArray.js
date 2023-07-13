@@ -23,7 +23,7 @@ export const links = [
   {
     id: 4,
     url: "/work",
-    page: "work",
+    page: "portfolio",
     icon: "icon fas fa-archive",
   },
 

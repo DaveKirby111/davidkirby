@@ -1,4 +1,9 @@
 
+h1 {
+  font-size: 120px !important;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 h2 {
   text-align: center;
@@ -133,7 +138,7 @@ a:hover {
   width: 400px;
   display: block;
   margin: 0 auto;
-  /* border-radius: 50%; */
+
 }
 
 .pic:first-child {

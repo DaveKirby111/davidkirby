@@ -6,7 +6,7 @@ import { pageVariants } from "../components/PageVariants";
 
 export default function Resume() {
   return (
-    <Layout>
+    <Layout page="Resume">
       <motion.div
         initial="initial"
         animate="animate"

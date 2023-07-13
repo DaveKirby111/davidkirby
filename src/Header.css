@@ -7,10 +7,6 @@ header a:hover {
   text-decoration: none !important;
 }
 
-header h1 {
-  font-size: 50px;
-}
-
 header {
-  height: 200px;
+  height: 400px !important;
 }

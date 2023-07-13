@@ -7,6 +7,10 @@ nav a:hover {
 }
 
 .nav-link-light {
+  color: white !important;
+}
+
+.light footer a {
   color: black !important;
 }
 
@@ -26,4 +30,8 @@ nav a:hover {
 
 .icon {
   margin-right: 10px;
+}
+
+nav a {
+  font-size: 20px !important;
 }

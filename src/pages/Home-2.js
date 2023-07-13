@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
-import Nav from "../Nav";
+import Nav from "../components/Nav";
+import { motion } from "framer-motion";
+import { pageVariants } from "../components/PageVariants";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons";
 
-import dk from "../../images/dk.png";
+import dk from "../images/dk.png";
+import banner from "../images/desk.jpg";
 
-const Layout = ({ children, page }) => {
+function Home() {
   const storedMode = localStorage.getItem("mode");
   const [mode, setMode] = useState(storedMode || "light");
 
@@ -24,7 +27,14 @@ const Layout = ({ children, page }) => {
 
   return (
     <div className={`${mode}`}>
-      <div className="layout container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
+      <div
+        className="layout container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0"
+        style={{
+          backgroundImage: `url(${banner})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
         <header>
           <div className="banner d-flex align-items-center w-100">
             <Link to="/" className="nav-link">
@@ -58,10 +68,23 @@ const Layout = ({ children, page }) => {
 
             <Nav mode={mode} />
           </div>
-          <h1 className="text-white w-75 mx-auto mt-4">{page}</h1>
         </header>
 
-        <main className="flex-grow-1">{children}</main>
+        <main
+          className="flex-grow-1"
+          style={{
+            background: "none",
+          }}
+        >
+          <motion.div
+            initial="initial"
+            animate="animate"
+            exit="exit"
+            variants={pageVariants}
+          >
+            <h1 className="text-white text-center w-75 mx-auto">David Kirby</h1>
+          </motion.div>
+        </main>
 
         <footer className="d-flex">
           <div className="email w-25 text-center d-flex justify-content-center align-items-center">
@@ -82,6 +105,6 @@ const Layout = ({ children, page }) => {
       </div>
     </div>
   );
-};
+}
 
-export default Layout;
+export default Home;

@@ -1,4 +1,17 @@
+.light header {
+  background-image: url("images/desk.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
 
+.light .banner {
+  background: rgba(0,0,0 , 0.3);
+}
+
+.light h1 {
+  text-shadow: 5px 5px 5px black;
+}
 
 .light {
     background-color: #fff;

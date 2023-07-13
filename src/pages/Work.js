@@ -6,7 +6,7 @@ import Layout from "../components/layout/Layout";
 
 export default function Work() {
   return (
-    <Layout>
+    <Layout page="Portfolio">
       <motion.div
         initial="initial"
         animate="animate"
@@ -14,7 +14,7 @@ export default function Work() {
         variants={pageVariants}
       >
         <div className="works p-5 w-75 mt-5 mx-auto">
-          <h1 className="text-center">Coming Soon</h1>
+          <h2 className="text-center">Coming Soon</h2>
         </div>
       </motion.div>
     </Layout>

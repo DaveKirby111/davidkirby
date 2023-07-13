@@ -9,7 +9,9 @@
 
   .dark .resume-body,
   .dark .about-container,
-  .dark .gallery-container {
+  .dark .gallery-container,
+  .dark .intro,
+  .dark .works {
     background-color: #333;
   }
 

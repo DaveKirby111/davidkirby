@@ -21,7 +21,8 @@ footer,
 .profile,
 .about-info,
 .works,
-.switch-checkbox {
+.switch-checkbox,
+h1 {
   border: 2px solid black;
 }
 

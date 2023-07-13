@@ -6,19 +6,13 @@ import Layout from "../components/layout/Layout";
 
 function Home() {
   return (
-    <Layout>
+    <Layout page="David Kirby">
       <motion.div
         initial="initial"
         animate="animate"
         exit="exit"
         variants={pageVariants}
-      >
-        <div className="intro p-5 w-75 mt-5 mx-auto">
-          <div className="name w-25 text-center">
-            <h1>David Kirby</h1>
-          </div>
-        </div>
-      </motion.div>
+      ></motion.div>
     </Layout>
   );
 }
