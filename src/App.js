@@ -2,7 +2,6 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 
-import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import About from "./pages/About";
 import Gallery from "./pages/Gallery";
@@ -13,8 +12,7 @@ function App() {
     <div className="App">
       <AnimatePresence>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/work" element={<Work />} />
           <Route path="/gallery" element={<Gallery />} />

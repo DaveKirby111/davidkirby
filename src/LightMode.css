@@ -58,3 +58,7 @@
   .light main {
     background: linear-gradient(black, lightgreen, green, darkgreen)
   }
+
+  /* .light main {
+    background: linear-gradient(black, gray, black);
+  } */

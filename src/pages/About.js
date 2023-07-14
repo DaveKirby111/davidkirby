@@ -9,7 +9,7 @@ import resume from "../assets/Resume.docx";
 
 export default function About() {
   return (
-    <Layout page="About Me">
+    <Layout page="David Kirby">
       <motion.div
         initial="initial"
         animate="animate"
