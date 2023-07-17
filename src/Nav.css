@@ -13,7 +13,7 @@ nav a:hover {
 }
 
 .nav-link-light.active {
-  color: white !important;
+  color: rgb(32, 206, 32) !important;
     text-shadow: 2px 2px 2px black;
     text-decoration: underline !important;
    
@@ -36,3 +36,8 @@ nav a:hover {
 nav a {
   font-size: 20px !important;
 }
+
+nav a:hover {
+  color: rgb(32, 206, 32) !important;
+}
+

@@ -2,7 +2,7 @@ export const links = [
   {
     id: 1,
     url: "/",
-    page: "about",
+    page: "home",
     icon: "icon fas fa-portrait",
   },
 

@@ -1,0 +1,95 @@
+/* Hide the mobile menu by default on desktop screens */
+@media (min-width: 768px) {
+    .hide-mobile-menu {
+      display: none;
+    }
+  }
+  
+  /* Show the mobile menu on smaller screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+
+    h1 {
+        font-size: 70px !important;
+    }
+
+    header {
+        height: 700px !important;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        margin: 0 auto;
+    }
+
+    .about-infobody {
+        flex-direction: column;
+    }
+
+    .personal-info p {
+        width: 200px !important;
+    }
+
+    .profile p {
+        width: 300px;
+    }
+
+    .me {
+        width: 250px;
+        height: 300px;
+        margin-bottom: 0 !important;
+    }
+
+    footer .social .fa-brands {
+        margin-top: 25px;
+        
+    }
+
+    .linked {
+        margin-right: 15px;
+    }
+
+.school, .work, .list {
+    flex-direction: column;
+}
+
+.list ul {
+    margin-left: 50px;
+}
+
+.list ul li {
+    width: 300px;
+}
+
+.gallery-container,
+.about-container,
+.resume-body,
+.intro,
+.works {
+  width: 400px !important;
+}
+
+.gallery-container .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic .img {
+    height: 300px;
+    width: 300px;
+}
+
+.gallery-container .body {
+    width: 300px !important;
+}
+
+ 
+  }
+  

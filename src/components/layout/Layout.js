@@ -27,7 +27,7 @@ const Layout = ({ children, page }) => {
       <div className="layout container-fluid d-flex flex-column min-vh-100 flex-wrap p-0 m-0">
         <header>
           <div className="banner d-flex align-items-center w-100">
-            <Link to="/" className="nav-link">
+            <Link to="/" className="nav-link logo">
               <img src={dk} alt="logo" height={"100px"} width={"200px"} />
             </Link>
 
@@ -86,7 +86,7 @@ const Layout = ({ children, page }) => {
               href="https://www.linkedin.com/in/david-kirby-64a1487a/"
               rel="noreferrer"
               target="_blank"
-              className="me-5"
+              className="linked"
             >
               <i class="fa-brands fa-linkedin"></i>
             </a>

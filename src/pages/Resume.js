@@ -67,12 +67,12 @@ export default function Resume() {
                 <li>CSS</li>
                 <li>PHP</li>
               </ul>
-              <ul className="ms-5">
+              <ul>
                 <li>Javascript</li>
                 <li>React</li>
                 <li>Wordpress</li>
               </ul>
-              <ul className="ms-5">
+              <ul>
                 <li>Bootstrap 5</li>
                 <li>Sass</li>
                 <li>Git and Github</li>

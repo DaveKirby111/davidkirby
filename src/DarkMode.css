@@ -3,6 +3,14 @@
     color: #fff;
   }
 
+  .dark .banner {
+    border: 2px solid black;
+  }
+
+  .dark .gallery-container img, .dark .body {
+    box-shadow: none !important;
+  }
+
   .dark main {
     background-color: black;
   }
@@ -41,4 +49,8 @@
 
   .dark .personal-info .h5 {
     border-bottom: none;
+  }
+
+  .dark .fa-brands:hover {
+    color: #19a2c1;
   }
