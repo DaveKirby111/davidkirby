@@ -13,7 +13,7 @@ export default function Resume() {
         exit="exit"
         variants={pageVariants}
       >
-        <div className="resume-body p-5 w-75 mt-5 mx-auto">
+        <div className="resume-body p-5 mt-5 mx-auto">
           <div className="education">
             <h3 className="mb-5">education</h3>
 

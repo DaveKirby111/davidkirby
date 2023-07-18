@@ -9,20 +9,14 @@ const active = ({ isActive }) => {
   };
 };
 
-function Nav({ mode }) {
+function Nav() {
   return (
-    <nav className="navbar navbar-expand-sm ms-auto text-capitalize w-50">
+    <nav className="navbar navbar-expand-sm ms-auto text-capitalize">
       <ul className="navbar-nav mx-auto">
         {links.map((link) => {
           return (
             <li className="nav-item ms-5" key={link.id}>
-              <NavLink
-                to={link.url}
-                className={`nav-link ${
-                  mode === "dark" ? "nav-link-dark" : "nav-link-light"
-                }`}
-                style={active}
-              >
+              <NavLink to={link.url} className="nav-link" style={active}>
                 <i className={link.icon}></i>
                 {link.page}
               </NavLink>

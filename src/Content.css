@@ -3,6 +3,7 @@ h1 {
   font-size: 120px !important;
   text-align: center;
   text-transform: uppercase;
+  text-shadow: 5px 5px 5px black;
 }
 
 h2 {
@@ -27,9 +28,76 @@ p {
   font-size: 18px;
 }
 
+main {
+  background: linear-gradient(black, lightgreen, green, darkgreen)
+}
+
 a.fa:hover {
   text-decoration: none !important;
   color: white !important;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-brands {
+  font-size: 30px;
+  color: black;
+}
+
+.resume-body,
+.about-container,
+.gallery-container,
+.intro,
+.works {
+  width: 75%;
+  background: white;
+  box-shadow: 15px 15px 15px black;
+  border: 5px double black;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+.container > * {
+  flex: 1;
+}
+
+.linked {
+  margin-right: 25px;
+}
+
+
+/*----- ABOUT -----*/
+
+.about-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.resume-btn {
+  text-decoration: none;
+  border: none;
+  padding: 12px 40px;
+  background-color: gray;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  font-size: 15px !important;
+  text-align: center;
 }
 
 .about-info a {
@@ -60,68 +128,6 @@ a.fa:hover {
   transform: scale(0.98);
   box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
-  
-
-.fa {
-  padding: 20px;
-  font-size: 50px;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-}
-
-.fa-brands {
-  font-size: 30px;
-}
-
-.light .fa-brands {
-  color: black;
-}
-
-.dark .fa-brands {
-  color: white;
-}
-
-.education,
-.experience {
-  border-bottom: 1px solid black;
-}
-
-.thumb {
-  cursor: pointer;
-}
-
-.body h5 {
-  padding: 20px;
-  background-color: black;
-  color: white;
-}
-
-.body {
-  border: 1px solid darkgray;
-  box-shadow: 5px 5px 5px darkgray;
-  width: 600px !important;
-}
-
-.about-container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.img img {
-  width: 100%;
-  height: auto;
-}
-
-.gallery-container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.body {
-  background-color: White;
-  color: black;
-}
 
 .myPic caption {
   width: 300px;
@@ -130,40 +136,28 @@ a.fa:hover {
   margin: 0 auto;
 }
 
-a {
-  text-decoration: none !important;
-}
-
-a:hover {
-  text-decoration: underline !important;
-}
-
 .me {
   height: 450px;
   width: 400px;
   display: block;
-  /* margin: 0 auto; */
-
-}
-
-.pic:first-child {
-  margin-top: 50px !important;
-}
-
-.img img {
-  display: block;
   margin: 0 auto;
 }
 
-.container > * {
-  flex: 1;
+.personal-info p {
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.thumb {
-  object-fit: cover;
-  max-width: 100%;
-  height: auto;
-  box-shadow: 5px 5px 5px darkgray;
+.personal-info .h5 {
+  border-bottom: none;
+}
+
+/*----- RESUME -----*/
+
+.education,
+.experience {
+  border-bottom: 1px solid black;
 }
 
 .education,
@@ -190,15 +184,47 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.gallery-container,
-.about-container,
-.resume-body,
-.intro,
-.works {
-  border: 5px double black;
-  margin-bottom: 20px;
+/*----- PORTFOLIO -----*/
+/*----- GALLERY -----*/
+
+.gallery-container {
+  width: 90%;
+  margin: 0 auto;
 }
 
-.linked {
-  margin-right: 25px;
+.thumb {
+  cursor: pointer;
+}
+
+.thumb {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 5px 5px 5px darkgray;
+}
+
+.body h5 {
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.body {
+  border: 1px solid darkgray;
+  box-shadow: 5px 5px 5px darkgray;
+  width: 600px !important;
+  background-color: White;
+  color: black;
+}
+
+.img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.pic:first-child {
+  margin-top: 50px !important;
 }

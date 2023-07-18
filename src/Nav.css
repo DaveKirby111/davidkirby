@@ -4,29 +4,15 @@ nav a:hover {
   text-decoration: underline !important;
 }
 
-.nav-link-dark {
+.nav-link {
   color: white !important;
 }
 
-.nav-link-light {
-  color: white !important;
-}
-
-.nav-link-light.active {
+.nav-link.active {
   color: rgb(32, 206, 32) !important;
     text-shadow: 2px 2px 2px black;
     text-decoration: underline !important;
    
-}
-
-.nav-link-dark.active {
-  color: cyan !important;
-  text-decoration: underline !important;
-}
-
-.nav-link-dark:hover {
-  color: cyan !important;
-  text-decoration: underline !important;
 }
 
 .icon {

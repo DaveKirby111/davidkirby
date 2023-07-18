@@ -1,23 +1,14 @@
-@import "Switch.css";
+
 @import "Header.css";
 @import "Nav.css";
 @import "Content.css";
 @import "Footer.css";
-@import "LightMode.css";
-@import "DarkMode.css";
 @import "Screen.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Judson&display=swap');
 
 * {
   box-sizing: border-box;
-}
-
-footer,
-.email,
-
-.social  {
-  border: 2px solid black;
 }
 
 html,

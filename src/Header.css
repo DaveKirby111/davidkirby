@@ -9,4 +9,11 @@ header a:hover {
 
 header {
   height: 350px !important;
+  background-image: url("images/desk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  background: rgba(0,0,0 , 0.3);
 }

@@ -1,10 +1,10 @@
 export const links = [
-  {
-    id: 1,
-    url: "/",
-    page: "home",
-    icon: "icon fas fa-portrait",
-  },
+  // {
+  //   id: 1,
+  //   url: "/",
+  //   page: "home",
+  //   icon: "icon fas fa-portrait",
+  // },
 
   {
     id: 2,

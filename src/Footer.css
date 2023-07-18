@@ -1,43 +1,47 @@
-.light footer {
+footer {
    height: 100px;
     color: white;
 }
 
-.light footer a {
+footer a {
     color: white !important;
     
 }
 
-.light footer a:hover {
+ footer a:hover {
     text-decoration: underline;
 }
 
-.light .info {
+.info {
     background-image: url("images/footer-bg.png");
     background-size: 100% 100%;
    
     text-shadow: 5px 5px 5px black;
 }
 
-.light .info p {
+.info p {
     font-size: 25px !important;
 }
 
-.light .email {
-    border-right: 1px solid green;
+.email {
+    border-right: 1px solid green !important;
     background-image: url("images/footer-bg.png");
     background-size: 100% 100%;
     text-shadow: 5px 5px 5px black;
     
 }
 
-.light .social {
-    border-left: 1px solid green;
+.social {
+    border-left: 1px solid green !important;
     background-image: url("images/footer-bg.png");
     background-size: 100% 100%;
 }
 
-.light .social .fa-brands {
+.social .fa-brands {
     color: white !important;
     text-shadow: 5px 5px 5px black;
+}
+
+.linked {
+    margin-right: 55px;
 }

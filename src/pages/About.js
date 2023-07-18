@@ -19,7 +19,7 @@ export default function About() {
         <div className="about-container d-flex flex-column mt-5 mb-5">
           <h2 className="text-decoration-underline">About Me</h2>
           <div className="d-flex about-infobody">
-            <div className="myPic w-50 p-5">
+            <div className="myPic p-5">
               <img src={me} alt="me" className="me mb-5" />
 
               <div className="about-info p-5 d-flex flex-column">
