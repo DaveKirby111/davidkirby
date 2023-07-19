@@ -19,6 +19,10 @@ nav a:hover {
   margin-right: 10px;
 }
 
+nav {
+  margin-right: 10px !important;
+}
+
 nav a {
   font-size: 20px !important;
 }

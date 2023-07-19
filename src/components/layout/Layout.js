@@ -43,7 +43,7 @@ const Layout = ({ children, page }) => {
             target="_blank"
             className="linked"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-linkedin"></i>
           </a>
 
           <a
@@ -52,7 +52,7 @@ const Layout = ({ children, page }) => {
             target="_blank"
             className="gith"
           >
-            <i class="fa-brands fa-github"></i>
+            <i className="fa-brands fa-github"></i>
           </a>
         </div>
       </footer>

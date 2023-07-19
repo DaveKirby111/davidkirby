@@ -54,7 +54,7 @@ export default function Gallery() {
                       />
                     </div>
 
-                    <div className="body mx-auto">
+                    <div className="body mx-auto d-flex flex-column flex-wrap">
                       <h5 className="text-center">{image.title}</h5>
                       <div className="body-text w-75 mx-auto">
                         <p>
