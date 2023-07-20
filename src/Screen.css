@@ -1,3 +1,6 @@
+
+
+
 /* Tablet (portrait) */
 
   @media screen and (max-width: 992px) {
@@ -23,6 +26,20 @@
 
     .school, .work, .list {
         flex-direction: column;
+    }
+
+    .site {
+        flex-direction: column;
+    }
+
+    .site-img {
+        width: 100%;
+    }
+    
+
+    .desc {
+        width: 100%;
+        padding: 0;
     }
 
     .list ul {
@@ -51,14 +68,16 @@
   /* Tablet (landscape) */
 
   @media screen and (min-width: 1040px) {
-    
+    .profile {
+        width: 100%;
+    }
   }
 
   /* mobile */
 @media screen and (max-width: 480px) {
 
     h1 {
-        font-size: 70px !important;
+        font-size: 50px !important;
     }
 
     h3 {
@@ -70,7 +89,7 @@
     }
 
     header {
-        height: 500px !important;
+        height: 300px !important;
     }
 
     .banner {
@@ -125,9 +144,9 @@
         width: 200px !important;
     }
 
-    .profile p {
-        width: 300px;
-    }
+   .profile {
+    width: 100%;
+   }
 
     .me {
         width: 250px;

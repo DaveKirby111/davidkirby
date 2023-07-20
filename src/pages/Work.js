@@ -45,18 +45,18 @@ export default function Work() {
                       src={site.pic}
                       alt="screenshot"
                       className="screenshot"
-                      width={"350px"}
-                      height={"300px"}
                     />
                   </Link>
                 </div>
 
                 <div className="desc">
                   <h3>{site.title}</h3>
-                  <p>
-                    <span className="fw-bold">Description: </span>
-                    {site.description}
-                  </p>
+                  <div className="desc-body">
+                    <p>
+                      <span className="fw-bold">Description: </span>
+                      {site.description}
+                    </p>
+                  </div>
                 </div>
               </div>
             );

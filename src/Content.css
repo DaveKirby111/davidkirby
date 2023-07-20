@@ -1,8 +1,4 @@
 
-.site, .desc {
-  border: 2px solid black;
-}
-
 
 h1 {
   font-size: 120px !important;
@@ -40,8 +36,6 @@ main {
 img {
   max-width: 100%;
 }
-
-
 
 a.fa:hover {
   text-decoration: none !important;
@@ -115,6 +109,7 @@ a:hover {
   font-size: 20px;
 }
 
+
 .about-container .h5 {
   font-size: 30px;
 }
@@ -148,10 +143,14 @@ a:hover {
 }
 
 .me {
-  height: 450px;
-  width: 400px;
+  height: 350px;
+  width: 450px;
   display: block;
   margin: 0 auto;
+}
+
+.profile {
+  width: 50%;
 }
 
 .personal-info p {
@@ -200,21 +199,36 @@ a:hover {
 .site {
   flex-wrap: wrap;
   margin-bottom: 20px;
+  
 }
 
 .site-img {
-  width: 30%;
+  width: 40%;
+}
+
+.site-img img {
+  width: 100%;
+  height: auto;
 }
 
 .desc {
-  width: 70%;
+  width: 60%;
   padding: 20px;
+}
+
+.desc-body {
+  padding: 20px;
+  border: 5px double black;
+  margin: 0 auto;
 }
 
 .desc h3 {
   font-size: 40px;
   text-align: center;
   text-transform: capitalize;
+  background-color: black;
+  color: white;
+  text-shadow: 1px 1px 1px red;
 }
 
 /*----- GALLERY -----*/
@@ -239,6 +253,7 @@ a:hover {
   padding: 20px;
   background-color: black;
   color: white;
+  text-shadow: 1px 1px 1px red;
 }
 
 .body {

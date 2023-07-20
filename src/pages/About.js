@@ -60,7 +60,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="profile w-50 p-5">
+            <div className="profile p-5">
               <p className="h5 fw-bold mb-4">Background</p>
               <p>
                 My name is David Kirby and I make websites. I first started
