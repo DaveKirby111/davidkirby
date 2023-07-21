@@ -143,20 +143,21 @@ a:hover {
 }
 
 .me {
-  height: 350px;
+  height: 400px;
   width: 450px;
   display: block;
   margin: 0 auto;
 }
 
 .profile {
-  width: 50%;
+  width:50%;
 }
 
 .personal-info p {
   border-bottom: 1px solid lightgray;
   padding: 10px;
   margin-bottom: 10px;
+  width: 300px;
 }
 
 .personal-info .h5 {

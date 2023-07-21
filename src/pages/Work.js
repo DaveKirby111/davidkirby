@@ -3,27 +3,28 @@ import "../App.css";
 import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
 import Layout from "../components/layout/Layout";
-import { Link } from "react-router-dom";
 
-import placeholder from "../images/placeholder-screencap.png";
+// import { Link } from "react-router-dom";
 
-const sites = [
-  {
-    id: 1,
-    pic: placeholder,
-    title: "title",
-    src: "",
-    description: "This is a placeholder for potential upcoming sites.",
-  },
+// import placeholder from "../images/placeholder-screencap.png";
 
-  {
-    id: 2,
-    pic: placeholder,
-    title: "title",
-    src: "",
-    description: "This is a placeholder for potential upcoming sites.",
-  },
-];
+// const sites = [
+//   {
+//     id: 1,
+//     pic: placeholder,
+//     title: "title",
+//     src: "",
+//     description: "This is a placeholder for potential upcoming sites.",
+//   },
+
+//   {
+//     id: 2,
+//     pic: placeholder,
+//     title: "title",
+//     src: "",
+//     description: "This is a placeholder for potential upcoming sites.",
+//   },
+// ];
 
 export default function Work() {
   return (
@@ -36,7 +37,7 @@ export default function Work() {
       >
         <div className="works p-5 w-75 mt-5 mx-auto">
           <h2 className="text-center">Coming Soon</h2>
-          {sites.map((site) => {
+          {/* {sites.map((site) => {
             return (
               <div className="site d-flex" key={site.id}>
                 <div className="site-img">
@@ -60,7 +61,7 @@ export default function Work() {
                 </div>
               </div>
             );
-          })}
+          })} */}
         </div>
       </motion.div>
     </Layout>
