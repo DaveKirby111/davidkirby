@@ -1,0 +1,76 @@
+@media print {
+    
+    
+    .logo {
+        display: none;
+    }
+
+    nav {
+        display: none !important;
+    }
+
+    header {
+        height: 100px !important;
+    }
+
+    header h1 {
+        text-shadow: none;
+        font-size: 50px !important;
+    }
+
+    .about-container,
+    .resume-body,
+    .gallery-container,
+    .works,
+    .body {
+        box-shadow: none;
+    }
+
+    .me {
+        height: 400px;
+    }
+
+    .school, .work, .list {
+        flex-direction: column;
+    }
+
+    .about-infobody,
+    .site {
+        flex-direction: column;
+    }
+
+    .gallery-container .row {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+  .gallery {
+    width: 100% !important;
+  }
+
+  .site-img {
+    margin: 0 auto;
+  }
+
+    .profile,
+    .desc {
+        width: 100%;
+    }
+
+    .desc h3 {
+        text-shadow: none;
+    }
+
+    .body h5 {
+        text-shadow: none;
+    }
+
+    footer > * {
+        text-shadow: none !important;
+    }
+
+    .social .fa-brands {
+        text-shadow: none;
+        margin-top: 40px;
+    }
+}

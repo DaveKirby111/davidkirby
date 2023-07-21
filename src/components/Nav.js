@@ -16,7 +16,12 @@ function Nav() {
         {links.map((link) => {
           return (
             <li className="nav-item ms-5" key={link.id}>
-              <NavLink to={link.url} className="nav-link" style={active}>
+              <NavLink
+                to={link.url}
+                className="nav-link"
+                title={link.page}
+                style={active}
+              >
                 <i className={link.icon}></i>
                 {link.page}
               </NavLink>
