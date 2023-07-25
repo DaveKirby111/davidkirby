@@ -173,6 +173,8 @@
 
     .list ul li {
         width: 300px;
+        font-size: 12px;
+        
     }
 
     .gallery-container,

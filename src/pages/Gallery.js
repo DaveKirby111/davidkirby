@@ -18,7 +18,7 @@ export default function Gallery() {
   };
 
   // Chunk the gallery array into groups of two
-  const galleryChunks = chunkArray(gallery, 2);
+  const galleryChunks = chunkArray(gallery, 3);
 
   return (
     <Layout page="Gallery">
@@ -41,12 +41,15 @@ export default function Gallery() {
             <div className="row" key={index}>
               {chunk.map((image) => (
                 <div
-                  className="gallery w-50 col-md-6 mb-5"
+                  className="gallery col-md-6"
                   key={image.id}
-                  style={{ width: "100%", height: "auto" }}
+                  style={{ width: "33.3%", height: "auto" }}
                 >
                   <div className="pic d-flex flex-column p-4">
-                    <div className="img p-2 mb-3 mx-auto">
+                    <div
+                      className="img p-2 mx-auto"
+                      style={{ height: "400px" }}
+                    >
                       <MyModal
                         image={image.image}
                         alt={image.alt}
@@ -71,7 +74,7 @@ export default function Gallery() {
                 </div>
               ))}
               {/* Add an empty div to clear the row after the second .pic */}
-              {chunk.length < 2 && <div className="col-md-6 mb-5"></div>}
+              {chunk.length < 3 && <div className="col-md-6 mb-5"></div>}
             </div>
           ))}
         </div>

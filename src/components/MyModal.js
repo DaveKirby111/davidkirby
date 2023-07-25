@@ -3,13 +3,23 @@ import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 
 const styles = {
-  image: {
+  imageModal: {
     width: "100%",
     height: "auto",
   },
 
   btn: {
-    boxShadow: "5px 5px 5px darkgray",
+    display: "block",
+    height: "100%",
+    width: "100%",
+    overflow: "visible",
+  },
+  imageBtn: {
+    objectFit: "contain",
+    height: "100%",
+    width: "100%",
+    filter:
+      "drop-shadow(0 20px 13px rgb(0 0 0 / 0.2)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08))",
   },
 };
 
@@ -21,10 +31,10 @@ export default function MyModal(props) {
   return (
     <div
       className="modal show"
-      style={{ display: "block", position: "initial" }}
+      style={{ display: "block", position: "initial", overflow: "visible" }}
     >
-      <Button onClick={handleShow} variant="link">
-        <img src={props.image} alt={props.alt} style={styles.btn} />
+      <Button onClick={handleShow} variant="link" style={styles.btn}>
+        <img src={props.image} alt={props.alt} style={styles.imageBtn} />
       </Button>
 
       <Modal
@@ -39,7 +49,7 @@ export default function MyModal(props) {
         </Modal.Header>
 
         <Modal.Body>
-          <img src={props.image} alt={props.alt} style={styles.image} />
+          <img src={props.image} alt={props.alt} style={styles.imageModal} />
         </Modal.Body>
       </Modal>
     </div>

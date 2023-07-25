@@ -1,3 +1,5 @@
+@import "fontawesome/css/fontawesome.min.css";
+
 footer {
    height: 100px;
     color: white;
@@ -39,7 +41,7 @@ footer a {
 
 .social .fa-brands {
     color: white !important;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px black !important;
 }
 
 .linked {

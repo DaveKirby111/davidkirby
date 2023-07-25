@@ -3,6 +3,7 @@ import Nav from "../Nav";
 import { Link } from "react-router-dom";
 
 import dk from "../../images/dk-2.png";
+import github from "../../images/github-mark-white.png";
 
 const Layout = ({ children, page }) => {
   return (
@@ -27,7 +28,7 @@ const Layout = ({ children, page }) => {
               href="mailto:davidkirby225@gmail.com"
               className="text-decoration-none"
             >
-              <i className="icon fas fa-envelope" />
+              <i class="icon fas fa-envelope" />
               email
             </a>
           </h4>
@@ -43,7 +44,7 @@ const Layout = ({ children, page }) => {
             target="_blank"
             className="linked"
           >
-            <i className="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-linkedin"></i>
           </a>
 
           <a
@@ -52,7 +53,14 @@ const Layout = ({ children, page }) => {
             target="_blank"
             className="gith"
           >
-            <i className="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github"></i>
+            {/* <img
+              src={github}
+              alt="github"
+              className="fa-brands fa-github"
+              width={"29px"}
+              height={"30px"}
+            /> */}
           </a>
         </div>
       </footer>

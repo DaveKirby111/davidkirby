@@ -3,9 +3,12 @@ import "../App.css";
 import Layout from "../components/layout/Layout";
 import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
+import { Link } from "react-router-dom";
 
 import me from "../images/Me.jpg";
 import resume from "../assets/Resume.pdf";
+import github from "../fontawesome/svgs/brands/github.svg";
+import linked from "../fontawesome/svgs/brands/linkedin-in.svg";
 
 export default function About() {
   return (
@@ -25,7 +28,12 @@ export default function About() {
               <div className="about-info p-5 d-flex flex-column">
                 <div className="personal-info mb-3">
                   <p className="h5 fw-bold mb-4">Information</p>
-                  <p>Email: davidkirby225@gmail.com</p>
+                  <p>
+                    Email:{" "}
+                    <Link to="mailto:davidkirby225@gmail.com">
+                      davidkirby225@gmail.com
+                    </Link>
+                  </p>
                   <p>Address: McCalla, AL</p>
                 </div>
 
@@ -46,7 +54,12 @@ export default function About() {
                     target="_blank"
                     className="me-5"
                   >
-                    <i class="fa-brands fa-linkedin"></i>
+                    <img
+                      src={linked}
+                      alt="linked"
+                      width={"29px"}
+                      height={"30px"}
+                    />
                   </a>
 
                   <a
@@ -54,7 +67,12 @@ export default function About() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <img
+                      src={github}
+                      alt="github"
+                      width={"29px"}
+                      height={"30px"}
+                    />
                   </a>
                 </div>
               </div>

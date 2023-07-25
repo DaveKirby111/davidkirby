@@ -1,7 +1,6 @@
 import ix from "../images/mypainting.jpg";
 import shield from "../images/shield.jpg";
 import objects from "../images/objects.jpg";
-import dayout from "../images/DayOut.jpg";
 
 export const gallery = [
   {
@@ -32,15 +31,5 @@ export const gallery = [
     art: "Paint: ",
     medium: "Acrylic",
     body: "This is another painting that I did in college. It is various items: oven mitt, rock, hat and a rag.",
-  },
-
-  {
-    id: 4,
-    image: dayout,
-    alt: "dayout",
-    title: "Day Out",
-    art: "Drawing: ",
-    medium: "Pencil",
-    body: "I don't even remember when I did this; maybe high school.",
   },
 ];

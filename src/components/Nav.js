@@ -22,7 +22,7 @@ function Nav() {
                 title={link.page}
                 style={active}
               >
-                <i className={link.icon}></i>
+                <i class={link.icon}></i>
                 {link.page}
               </NavLink>
             </li>
