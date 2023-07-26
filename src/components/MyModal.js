@@ -18,8 +18,7 @@ const styles = {
     objectFit: "contain",
     height: "100%",
     width: "100%",
-    filter:
-      "drop-shadow(0 20px 13px rgb(0 0 0 / 0.2)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08))",
+    filter: "drop-shadow(5px 5px 5px rgb(169 169 169 / 1))",
   },
 };
 

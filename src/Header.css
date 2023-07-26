@@ -10,6 +10,7 @@ header a:hover {
 header {
   height: 350px !important;
   background-image: url("images/desk.jpg");
+  background-color: black;
   background-size: cover;
   background-position: center;
 }

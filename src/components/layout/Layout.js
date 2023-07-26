@@ -3,7 +3,6 @@ import Nav from "../Nav";
 import { Link } from "react-router-dom";
 
 import dk from "../../images/dk-2.png";
-import github from "../../images/github-mark-white.png";
 
 const Layout = ({ children, page }) => {
   return (
@@ -54,13 +53,6 @@ const Layout = ({ children, page }) => {
             className="gith"
           >
             <i class="fa-brands fa-github"></i>
-            {/* <img
-              src={github}
-              alt="github"
-              className="fa-brands fa-github"
-              width={"29px"}
-              height={"30px"}
-            /> */}
           </a>
         </div>
       </footer>
