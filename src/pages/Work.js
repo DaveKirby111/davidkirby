@@ -4,27 +4,20 @@ import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
 import Layout from "../components/layout/Layout";
 
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-// import placeholder from "../images/placeholder-screencap.png";
+import kwguides from "../images/kwguides.png";
 
-// const sites = [
-//   {
-//     id: 1,
-//     pic: placeholder,
-//     title: "title",
-//     src: "",
-//     description: "This is a placeholder for potential upcoming sites.",
-//   },
-
-//   {
-//     id: 2,
-//     pic: placeholder,
-//     title: "title",
-//     src: "",
-//     description: "This is a placeholder for potential upcoming sites.",
-//   },
-// ];
+const sites = [
+  {
+    id: 1,
+    pic: kwguides,
+    title: "KWorld Game Guides",
+    src: "https://kwguides.netlify.app/",
+    description:
+      "A personal site for tips, trick, and guides to some games that I enjoy.",
+  },
+];
 
 export default function Work() {
   return (
@@ -37,11 +30,11 @@ export default function Work() {
       >
         <div className="works p-5 w-75 mt-5 mx-auto">
           <h2 className="text-center">Coming Soon</h2>
-          {/* {sites.map((site) => {
+          {sites.map((site) => {
             return (
               <div className="site d-flex" key={site.id}>
                 <div className="site-img">
-                  <Link to={site.src}>
+                  <Link to={site.src} target="_blank">
                     <img
                       src={site.pic}
                       alt="screenshot"
@@ -61,7 +54,7 @@ export default function Work() {
                 </div>
               </div>
             );
-          })} */}
+          })}
         </div>
       </motion.div>
     </Layout>
