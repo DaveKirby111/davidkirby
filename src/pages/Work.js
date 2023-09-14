@@ -29,7 +29,6 @@ export default function Work() {
         variants={pageVariants}
       >
         <div className="works p-5 w-75 mt-5 mx-auto">
-          <h2 className="text-center">Coming Soon</h2>
           {sites.map((site) => {
             return (
               <div className="site d-flex" key={site.id}>
