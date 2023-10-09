@@ -1,5 +1,3 @@
-
-
 h1 {
   font-size: 120px !important;
   text-align: center;
@@ -30,7 +28,7 @@ p {
 }
 
 main {
-  background: linear-gradient(black, lightgreen, green, darkgreen)
+  background: linear-gradient(black, lightgreen, green, darkgreen);
 }
 
 img {
@@ -83,7 +81,6 @@ a:hover {
   margin-right: 25px;
 }
 
-
 /*----- ABOUT -----*/
 
 .about-container {
@@ -108,7 +105,6 @@ a:hover {
 .about-info a {
   font-size: 20px;
 }
-
 
 .about-container .h5 {
   font-size: 30px;
@@ -150,7 +146,7 @@ a:hover {
 }
 
 .profile {
-  width:50%;
+  width: 50%;
 }
 
 .personal-info p {
@@ -167,14 +163,39 @@ a:hover {
 /*----- RESUME -----*/
 
 .education,
-.experience {
+.experience,
+.skills {
   border-bottom: 1px solid black;
+}
+
+.dlResume {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.dlResume button {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.dlResume button:hover {
+  background-color: green;
+  color: white;
 }
 
 .education,
 .experience,
-.skills {
+.skills,
+.references {
   padding: 50px;
+}
+
+.education h3,
+.experience h3,
+.skills h3,
+.references h3 {
+  text-align: center;
 }
 
 .skills ul {
@@ -200,7 +221,6 @@ a:hover {
 .site {
   flex-wrap: wrap;
   margin-bottom: 20px;
-  
 }
 
 .site-img {
@@ -271,11 +291,6 @@ a:hover {
   margin: 0 auto;
 }
 
-
 .pic:first-child {
   margin-top: 50px !important;
 }
-
-
-
-

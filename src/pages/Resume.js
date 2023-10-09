@@ -3,8 +3,34 @@ import "../App.css";
 import Layout from "../components/layout/Layout";
 import { motion } from "framer-motion";
 import { pageVariants } from "../components/PageVariants";
+import resume2 from "../assets/Resume.docx";
 
 export default function Resume() {
+  function downloadResume() {
+    const resumeURL = resume2;
+
+    fetch(resumeURL)
+      .then((response) => response.blob())
+      .then((blob) => {
+        const blobURL = URL.createObjectURL(blob);
+
+        const a = document.createElement("a");
+        a.style.display = "none";
+        a.href = blobURL;
+        a.download = "Resume.docx";
+
+        document.body.appendChild(a);
+        a.click();
+
+        URL.revokeObjectURL(blobURL);
+
+        document.body.removeChild(a);
+      })
+      .catch((error) => {
+        console.error("Error downloading resume:", error);
+      });
+  }
+
   return (
     <Layout page="Resumé">
       <motion.div
@@ -13,6 +39,13 @@ export default function Resume() {
         exit="exit"
         variants={pageVariants}
       >
+        <div className="dlResume">
+          <button onClick={downloadResume}>
+            <i class="fa-solid fa-file-arrow-down me-2"></i>
+            Download Resume
+          </button>
+        </div>
+
         <div className="resume-body p-5 mt-5 mx-auto">
           <div className="education">
             <h3 className="mb-5">education</h3>
@@ -43,7 +76,7 @@ export default function Resume() {
               <div className="flex-fill">
                 <p className="fw-bold">Kinetic Communications</p>
                 <p>2022-Present</p>
-                <p>Intern</p>
+                <p>Coding and development on multiple projects</p>
               </div>
               <div className="flex-fill">
                 <p className="fw-bold">Dollar General</p>
@@ -68,7 +101,7 @@ export default function Resume() {
                 <li>PHP</li>
               </ul>
               <ul>
-                <li>Javascript</li>
+                <li>JavaScript</li>
                 <li>React</li>
                 <li>Wordpress</li>
               </ul>
@@ -77,6 +110,22 @@ export default function Resume() {
                 <li>Sass</li>
                 <li>Git and Github</li>
               </ul>
+              <ul>
+                <li>AI and ChatGPT</li>
+                <li>Microsoft Office</li>
+                <li>Svelte</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="references">
+            <h3 className="mb-5">references</h3>
+            <div className="d-flex justify-content-center">
+              <div>
+                <p className="fw-bold">Jay Brandrup</p>
+                <p>Kinetic Communications</p>
+                <p>(205) 422-5858</p>
+              </div>
             </div>
           </div>
         </div>

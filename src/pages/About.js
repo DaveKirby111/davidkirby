@@ -43,7 +43,7 @@ export default function About() {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <i class="fa-solid fa-file-arrow-down me-2"></i>
+                  <i class="fa-solid fa-file me-2"></i>
                   Open PDF
                 </a>
 
