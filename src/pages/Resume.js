@@ -121,11 +121,7 @@ export default function Resume() {
           <div className="references">
             <h3 className="mb-5">references</h3>
             <div className="d-flex justify-content-center">
-              <div>
-                <p className="fw-bold">Jay Brandrup</p>
-                <p>Kinetic Communications</p>
-                <p>(205) 422-5858</p>
-              </div>
+              <p>Available upon request.</p>
             </div>
           </div>
         </div>
