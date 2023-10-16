@@ -75,7 +75,7 @@ export default function Resume() {
             <div className="work text-center d-flex justify-content-between">
               <div className="flex-fill">
                 <p className="fw-bold">Kinetic Communications</p>
-                <p>2022-Present</p>
+                <p>2022-2023</p>
                 <p>Coding and development on multiple projects</p>
               </div>
               <div className="flex-fill">
