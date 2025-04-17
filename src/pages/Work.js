@@ -7,6 +7,7 @@ import Layout from "../components/layout/Layout";
 import { Link } from "react-router-dom";
 
 import kwguides from "../images/kwguides.png";
+import ctools from "../images/ctools.png";
 
 const sites = [
   {
@@ -16,6 +17,14 @@ const sites = [
     src: "https://kwguides.netlify.app/",
     description:
       "A personal site for tips, trick, and guides to some games that I enjoy.",
+  },
+
+  {
+    id: 2,
+    pic: ctools,
+    title: "My Office Tools",
+    src: "https://myofficetools.netlify.app/",
+    description: "Common tools used in office on one site.",
   },
 ];
 
