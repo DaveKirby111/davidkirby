@@ -1,208 +1,202 @@
-
-
-
 /* Tablet (portrait) */
 
-  @media screen and (max-width: 992px) {
-
-    h1 {
-        font-size: 60px !important;
-    }
-
-    .banner {
-        flex-direction: column;
-    }
-
-    .logo {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    nav {
-        margin-right: auto;
-        width: 100%;
-        
-    }
-
-    .school, .work, .list {
-        flex-direction: column;
-    }
-
-    .site {
-        flex-direction: column;
-    }
-
-    .site-img {
-        width: 100%;
-    }
-    
-
-    .desc {
-        width: 100%;
-        padding: 0;
-    }
-
-    .list ul {
-        margin-left: 50px;
-    }
-
-    .about-infobody {
-        flex-direction: column;
-    }
-
-    .body {
-        width: 100%;
-    }
-
-    footer .info p {
-        font-size: 20px !important;
-        margin-top: 30px !important;
-    }
-
-    footer .social .fa-brands {
-        margin-top: 25px;
-        
-    }
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 60px !important;
   }
 
-  /* Tablet (landscape) */
-
-  @media screen and (min-width: 1040px) {
-    .profile {
-        width: 100%;
-    }
+  .banner {
+    flex-direction: column;
   }
 
-  /* mobile */
-@media screen and (max-width: 480px) {
+  .logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
-    h1 {
-        font-size: 50px !important;
-    }
-
-    h3 {
-        font-size: 25px !important;
-    }
-
-    p {
-        font-size: 12px;
-    }
-
-    header {
-        height: 300px !important;
-    }
-
-    .banner {
-        flex-direction: column;
-        
-    }
-
-    .logo {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    nav {
-        margin-right: auto;
-        width: 100%;
-        
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row !important;
-        flex-wrap: wrap;
-    }
-
-    nav ul li a {
-        font-size: 15px !important;
-        padding: 0 !important;
-    }
-
-    .site {
-        flex-direction: column !important;
-    }
-
-    .site-img {
-        width: 100%;
-    }
-
-    .site-img img {
-        width: 200px;
-        height: 250px;
-    }
-
-    .desc {
-        width: 100%;
-    }
-
-    .about-infobody {
-        flex-direction: column;
-    }
-
-    .personal-info p {
-        width: 200px !important;
-    }
-
-   .profile {
+  nav {
+    margin-right: auto;
     width: 100%;
-   }
-
-    .me {
-        width: 250px;
-        height: 300px;
-        margin-bottom: 0 !important;
-    }
-
-    footer .social .fa-brands {
-        margin-top: 25px;
-        
-    }
-
-    .linked {
-        margin-right: 25px;
-    }
-
-    .school, .work, .list {
-        flex-direction: column;
-    }
-
-    .list ul {
-        margin-left: 50px;
-    }
-
-    .list ul li {
-        width: 300px;
-        font-size: 12px;
-        
-    }
-
-    .gallery-container,
-    .about-container,
-    .resume-body,
-    .intro,
-    .works {
-    width: 400px !important;
-    }
-
-    .gallery-container .row {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .body {
-        width: 300px;
-    }
-
-    .pic .img {
-        height: 400px;
-        width: 300px;
-    }
-
-    footer .info p {
-        font-size: 20px !important;
-        margin-top: 30px !important;
-    }
- 
   }
-  
+
+  .profile {
+    width: 100%;
+  }
+
+  .school,
+  .work,
+  .list {
+    flex-direction: column;
+  }
+
+  .site {
+    flex-direction: column;
+  }
+
+  .site-img {
+    width: 100%;
+  }
+
+  .desc {
+    width: 100%;
+    padding: 0;
+  }
+
+  .list ul {
+    margin-left: 50px;
+  }
+
+  .about-infobody {
+    flex-direction: column;
+  }
+
+  .body {
+    width: 100%;
+  }
+
+  footer .info p {
+    font-size: 20px !important;
+    margin-top: 30px !important;
+  }
+
+  footer .social .fa-brands {
+    margin-top: 25px;
+  }
+}
+
+/* Tablet (landscape) */
+
+@media screen and (min-width: 1040px) {
+  .profile {
+    width: 100%;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h3 {
+    font-size: 25px !important;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  header {
+    height: 300px !important;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  nav {
+    margin-right: auto;
+    width: 100%;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+
+  nav ul li a {
+    font-size: 15px !important;
+    padding: 0 !important;
+  }
+
+  .site {
+    flex-direction: column !important;
+  }
+
+  .site-img {
+    width: 100%;
+  }
+
+  .site-img img {
+    width: 200px;
+    height: 250px;
+  }
+
+  .desc {
+    width: 100%;
+  }
+
+  .about-infobody {
+    flex-direction: column;
+  }
+
+  .personal-info p {
+    width: 200px !important;
+  }
+
+  .profile {
+    width: 100%;
+  }
+
+  .me {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 0 !important;
+  }
+
+  footer .social .fa-brands {
+    margin-top: 25px;
+  }
+
+  .linked {
+    margin-right: 25px;
+  }
+
+  .school,
+  .work,
+  .list {
+    flex-direction: column;
+  }
+
+  .list ul {
+    margin-left: 50px;
+  }
+
+  .list ul li {
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .gallery-container,
+  .about-container,
+  .resume-body,
+  .intro,
+  .works {
+    width: 400px !important;
+  }
+
+  .gallery-container .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body {
+    width: 300px;
+  }
+
+  .pic .img {
+    height: 400px;
+    width: 300px;
+  }
+
+  footer .info p {
+    font-size: 20px !important;
+    margin-top: 30px !important;
+  }
+}
