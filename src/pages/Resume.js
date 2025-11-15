@@ -74,19 +74,19 @@ export default function Resume() {
 
             <div className="work text-center d-flex justify-content-between">
               <div className="flex-fill">
+                <p className="fw-bold">Planson Outdoors</p>
+                <p>July 2024 - October 2024</p>
+                <p>Data entry</p>
+              </div>
+              <div className="flex-fill">
                 <p className="fw-bold">Kinetic Communications</p>
-                <p>2022-2023</p>
-                <p>Coding and development on multiple projects</p>
+                <p>September 2022 - September 2023</p>
+                <p>Coding and development</p>
               </div>
               <div className="flex-fill">
                 <p className="fw-bold">Dollar General</p>
-                <p>2021-2022</p>
+                <p>April 2021 - Septermber 2022</p>
                 <p>Cashier</p>
-              </div>
-              <div className="flex-fill">
-                <p className="fw-bold">Bon Appétit</p>
-                <p>2020-2021</p>
-                <p>Dishwasher</p>
               </div>
             </div>
           </div>

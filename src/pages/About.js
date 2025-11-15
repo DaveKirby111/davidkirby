@@ -80,53 +80,63 @@ export default function About() {
 
             <div className="profile p-5">
               <p className="h5 fw-bold mb-4">Background</p>
+              <p>My name is David Kirby, and I am a web developer.</p>
               <p>
-                My name is David Kirby and I make websites. I first started
-                drawing when I was in elementary school and continued to improve
-                my art skills throughout college. I attended the University of
-                Montevallo and during my four years there I never decided on a
-                specific field to major in; and so I recieved a general
-                education in art. By the time I had graduated, I had become
-                burnt out on art and fell out of doing it.
+                My background in the visual arts began early, and I continued to
+                develop those skills through my studies at the University of
+                Montevallo, where I completed a broad, interdisciplinary art
+                program. This foundation in visual design has remained a
+                consistent influence on my work, even as my career path evolved.
               </p>
               <p>
-                After I graduated college I worked at a pain clinic for a couple
-                of years before I continued my education at Jefferson State
-                Community College. I decided on web development, seeing it as a
-                middle ground between being creative and doing something
-                structured.
+                After completing my undergraduate studies, I pursued further
+                education at Jefferson State Community College, where I earned
+                an Associate’s Degree in Web Technologies. I was drawn to web
+                development because it combines creative thinking with
+                structured problem-solving, allowing me to approach technical
+                challenges with an artistic perspective.
               </p>
               <p>
-                After getting my Associates degree in Web Technologies, I was
-                never able to get hired as a web developer. I eventually ended
-                up washing dishes in kitchen before getting another job at
-                Dollar General as a cashier. After over a year, I left that job
-                as it was not good for my overall health.
+                Like many emerging professionals, my early career included roles
+                outside of my chosen field. Throughout that time, I continued
+                building projects and refining my technical skills. This
+                persistence ultimately led to my current role as a Web
+                Development Intern at Kinetic Communications.
               </p>
-              <p className="mb-5">
-                I now have an internship at Kinetic Communications which I have
-                been enjoying. During my time here I have had the opportunity to
-                expand my knowledge of coding and grow as a web developer.
+              <p>
+                At Kinetic, I have had the opportunity to expand my coding
+                knowledge, work within a professional development environment,
+                and contribute to real client projects. This experience has
+                strengthened both my technical expertise and my commitment to
+                pursuing a long-term career in web development.
+              </p>
+              <p className="mb-4">
+                I am focused, reliable, and continually learning—dedicated to
+                producing high-quality work and growing as a developer with each
+                project I undertake.
               </p>
 
-              <p className="h5 fw-bold mb-4">Interests</p>
+              <p className="h5 fw-bold mb-4">Personal Interests</p>
               <p>
-                In my free time I enjoy comic books, tv and movies. Video games
-                are a hobby that I enjoy, more specifically role playing games
-                that revolve around science fiction or fantasy settings.
+                Outside of web development, I have a strong interest in
+                storytelling across different media. I enjoy comic books,
+                television, and film, and I am an avid fan of video
+                games—particularly role-playing games set in science fiction and
+                fantasy worlds.
               </p>
               <p>
-                I took karate when I was younger and even competed in a couple
-                of tournaments while I was in school. I still have an interest
-                in martial arts even though I have not done it in years.
+                I studied karate when I was younger and competed in several
+                tournaments during my school years. Although I no longer
+                practice regularly, martial arts remain an area of personal
+                interest and appreciation.
               </p>
               <p>
-                I don't normally read a lot of books, but there are certain
-                series that I have purchased and intend to get around to
-                reading. One example is the Witcher series of books. Being a fan
-                of the games I wanted to get the books as well. I have read the
-                first couple of books but have yet to start the rest. I also
-                have a few of the Star Wars books.
+                I am also gradually expanding my reading habits. I enjoy
+                collecting and exploring book series connected to my favorite
+                fictional universes, including The Witcher series and various
+                Star Wars titles. These stories inspire my imagination and
+                reflect my ongoing interest in world-building and narrative
+                design.
               </p>
             </div>
           </div>

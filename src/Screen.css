@@ -50,14 +50,6 @@
     flex-direction: column;
   }
 
-  /* .about-info {
-    border: 2px solid black;
-  }
-
-  .personal-info {
-    border: 2px solid black;
-  } */
-
   .personal-info p,
   a {
     margin-left: auto;
